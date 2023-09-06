@@ -1,0 +1,1284 @@
+=日志信息==== 2023年08月09日 16时51分22秒 ===
+日志类型		:INFO
+操作描述		:用户登录服务
+操作用户		:admin
+URL			:/login
+消耗时间		:4 ms
+请求类型		:post
+IP地址		:0:0:0:0:0:0:0:1
+请求参数		:{humanId=0, humanName=admin, humanPassword=123abc}
+请求返回的结果	:{code=200, data={humanEmail=xiaohong@email.com, humanId=1, humanName=admin, humanNiceName=小怪, humanPassword=123abc}, message=登录成功}
+请求设备信息	:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188
+
+=日志信息==== 2023年08月09日 16时51分23秒 ===
+日志类型		:INFO
+操作描述		:查询指定页的内容，显示在指定的页面
+操作用户		:admin
+URL			:/article/articleList/1
+消耗时间		:681 ms
+请求类型		:post
+IP地址		:0:0:0:0:0:0:0:1
+请求参数		:{currentPage=1}
+请求返回的结果	:{code=200, data={articles=[{articleContent=<p>东临碣石，以观沧海。水何澹澹，山岛竦峙。树木丛生，百草丰茂。秋风萧瑟，洪波涌起。日月之行，若出其中；星汉灿烂，若出其里。幸甚至哉，歌以咏志。<br></p>, articleId=12, articleIssueTime=1691569773000, articleTitle=观沧海, human={humanEmail=xiaohong@email.com, humanId=1, humanName=admin, humanNiceName=小怪, humanPassword=123abc}, humanId=0, typeId=2}, {articleContent=<p>asasaasas</p>, articleId=11, articleIssueTime=1691052525000, articleTitle=bbbaaaa, human={$ref=$.result.data.articles[0].human}, humanId=0, typeId=2}, {articleContent=<p>观自在菩萨，行深般若波罗蜜多时，照见五蕴皆空，度一切苦厄。舍利子，色不异空，空不异色，色即是空，空即是色，受想行识，亦复如是。<br></p>, articleId=10, articleIssueTime=1691049588000, articleTitle=心经, human={$ref=$.result.data.articles[0].human}, humanId=0, typeId=2}, {articleContent=<p>北冥有鱼，其名为鲲。鲲之大，不知其几千里也；化而为鸟，其名为鹏。鹏之背，不知其几千里也；怒而飞，其翼若垂天之云。是鸟也，海运则将徙于南冥。南冥者，天池也。《齐谐》者，志怪者也。<br></p>, articleId=9, articleIssueTime=1691049027000, articleTitle=逍遥游, human={$ref=$.result.data.articles[0].human}, humanId=0, typeId=2}, {articleContent=<p>道可道也，非恒道也。名可名也，非恒名也。无名万物之始也，有名万物之母也。故：恒无欲也，以观其眇；恒有欲也，以观其徼。两者同出，异名同谓。玄之又玄，众妙之门。<br></p>, articleId=8, articleIssueTime=1691048972000, articleTitle=道德经, human={$ref=$.result.data.articles[0].human}, humanId=0, typeId=2}, {articleContent=<p>先帝创业未半而中道崩殂，今天下三分，益州疲弊，此诚危急存亡之秋也。然侍卫之臣不懈于内，忠志之士忘身于外者，盖追先帝之殊遇，欲报之于陛下也。诚宜开张圣听，以光先帝遗德，恢弘志士之气，不宜妄自菲薄，引喻失义，以塞忠谏之路也。<br></p>, articleId=7, articleIssueTime=1691048636000, articleTitle=出师表, human={$ref=$.result.data.articles[0].human}, humanId=0, typeId=2}, {articleContent=<p>事实是事实是事实是事实烧死是事实是黑色试试hi实施烧死是事实是事实是是是是是是是</p>, articleId=4, articleIssueTime=1690892581000, articleTitle=是是记, human={$ref=$.result.data.articles[0].human}, humanId=0, typeId=2}, {articleContent=<p>晋元中，武陵人捕鱼为业。黄河之水天上来。劝君更进一杯酒。</p>, articleId=3, articleIssueTime=1690891522000, articleTitle=小石潭记, human={$ref=$.result.data.articles[0].human}, humanId=0, typeId=2}, {articleContent=<p>sfdsfsdfasdfa</p>, articleId=2, articleIssueTime=1688091123000, articleTitle=ddsf, human={humanEmail=xiaojun@email, humanId=2, humanName=xiaojun, humanNiceName=隔壁老王, humanPassword=admin}, humanId=0, typeId=3}], allPage=1}, message=成功}
+请求设备信息	:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188
+
+=日志信息==== 2023年08月09日 16时51分23秒 ===
+日志类型		:INFO
+操作描述		:null
+操作用户		:admin
+URL			:/to/base/navigation
+消耗时间		:82 ms
+请求类型		:get
+IP地址		:0:0:0:0:0:0:0:1
+请求参数		:{path=base, page=navigation}
+请求返回的结果	:base/navigation
+请求设备信息	:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188
+
+=日志信息==== 2023年08月09日 16时51分24秒 ===
+日志类型		:INFO
+操作描述		:获取文章类别列表
+操作用户		:admin
+URL			:/type/typeList
+消耗时间		:23 ms
+请求类型		:post
+IP地址		:0:0:0:0:0:0:0:1
+请求参数		:null
+请求返回的结果	:{code=200, data=[{typeId=2, typeName=我的日记}, {typeId=3, typeName=我的感悟}, {typeId=4, typeName=我的相册}], message=成功}
+请求设备信息	:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188
+
+=日志信息==== 2023年08月09日 16时58分44秒 ===
+日志类型		:INFO
+操作描述		:根据文章的点击量查询排名前十的文章内容。在每天指定时间查询 redis 中的排行榜数据，然后将其写入本地文件，在之后的时间只读取本地文件数据，在本地文件数据存在的情况下
+操作用户		:admin
+URL			:/article/ranking
+消耗时间		:21 ms
+请求类型		:post
+IP地址		:0:0:0:0:0:0:0:1
+请求参数		:null
+请求返回的结果	:{code=200, data=[{articleContent=<p>事实是事实是事实是事实烧死是事实是黑色试试hi实施烧死是事实是事实是是是是是是是</p>, articleId=4, articleIssueTime=1690892581000, articleTitle=是是记, humanId=1, typeId=2}, {articleContent=<p>晋元中，武陵人捕鱼为业。黄河之水天上来。劝君更进一杯酒。</p>, articleId=3, articleIssueTime=1690891522000, articleTitle=小石潭记, humanId=1, typeId=2}, {articleContent=<p>sfdsfsdfasdfa</p>, articleId=2, articleIssueTime=1688091123000, articleTitle=ddsf, humanId=2, typeId=3}], message=成功}
+请求设备信息	:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188
+
+=日志信息==== 2023年08月09日 16时58分44秒 ===
+日志类型		:INFO
+操作描述		:null
+操作用户		:admin
+URL			:/to/base/navigation
+消耗时间		:21 ms
+请求类型		:get
+IP地址		:0:0:0:0:0:0:0:1
+请求参数		:{path=base, page=navigation}
+请求返回的结果	:base/navigation
+请求设备信息	:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188
+
+=日志信息==== 2023年08月09日 16时58分45秒 ===
+日志类型		:INFO
+操作描述		:获取文章类别列表
+操作用户		:admin
+URL			:/type/typeList
+消耗时间		:258 ms
+请求类型		:post
+IP地址		:0:0:0:0:0:0:0:1
+请求参数		:null
+请求返回的结果	:{code=200, data=[{typeId=2, typeName=我的日记}, {typeId=3, typeName=我的感悟}, {typeId=4, typeName=我的相册}], message=成功}
+请求设备信息	:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188
+
+=日志信息==== 2023年08月09日 16时58分49秒 ===
+日志类型		:INFO
+操作描述		:查询指定页的内容，显示在指定的页面
+操作用户		:admin
+URL			:/article/articleList/1
+消耗时间		:15 ms
+请求类型		:post
+IP地址		:0:0:0:0:0:0:0:1
+请求参数		:{currentPage=1}
+请求返回的结果	:{code=200, data={articles=[{articleContent=<p>东临碣石，以观沧海。水何澹澹，山岛竦峙。树木丛生，百草丰茂。秋风萧瑟，洪波涌起。日月之行，若出其中；星汉灿烂，若出其里。幸甚至哉，歌以咏志。<br></p>, articleId=12, articleIssueTime=1691569773000, articleTitle=观沧海, human={humanEmail=xiaohong@email.com, humanId=1, humanName=admin, humanNiceName=小怪, humanPassword=123abc}, humanId=0, typeId=2}, {articleContent=<p>asasaasas</p>, articleId=11, articleIssueTime=1691052525000, articleTitle=bbbaaaa, human={$ref=$.result.data.articles[0].human}, humanId=0, typeId=2}, {articleContent=<p>观自在菩萨，行深般若波罗蜜多时，照见五蕴皆空，度一切苦厄。舍利子，色不异空，空不异色，色即是空，空即是色，受想行识，亦复如是。<br></p>, articleId=10, articleIssueTime=1691049588000, articleTitle=心经, human={$ref=$.result.data.articles[0].human}, humanId=0, typeId=2}, {articleContent=<p>北冥有鱼，其名为鲲。鲲之大，不知其几千里也；化而为鸟，其名为鹏。鹏之背，不知其几千里也；怒而飞，其翼若垂天之云。是鸟也，海运则将徙于南冥。南冥者，天池也。《齐谐》者，志怪者也。<br></p>, articleId=9, articleIssueTime=1691049027000, articleTitle=逍遥游, human={$ref=$.result.data.articles[0].human}, humanId=0, typeId=2}, {articleContent=<p>道可道也，非恒道也。名可名也，非恒名也。无名万物之始也，有名万物之母也。故：恒无欲也，以观其眇；恒有欲也，以观其徼。两者同出，异名同谓。玄之又玄，众妙之门。<br></p>, articleId=8, articleIssueTime=1691048972000, articleTitle=道德经, human={$ref=$.result.data.articles[0].human}, humanId=0, typeId=2}, {articleContent=<p>先帝创业未半而中道崩殂，今天下三分，益州疲弊，此诚危急存亡之秋也。然侍卫之臣不懈于内，忠志之士忘身于外者，盖追先帝之殊遇，欲报之于陛下也。诚宜开张圣听，以光先帝遗德，恢弘志士之气，不宜妄自菲薄，引喻失义，以塞忠谏之路也。<br></p>, articleId=7, articleIssueTime=1691048636000, articleTitle=出师表, human={$ref=$.result.data.articles[0].human}, humanId=0, typeId=2}, {articleContent=<p>事实是事实是事实是事实烧死是事实是黑色试试hi实施烧死是事实是事实是是是是是是是</p>, articleId=4, articleIssueTime=1690892581000, articleTitle=是是记, human={$ref=$.result.data.articles[0].human}, humanId=0, typeId=2}, {articleContent=<p>晋元中，武陵人捕鱼为业。黄河之水天上来。劝君更进一杯酒。</p>, articleId=3, articleIssueTime=1690891522000, articleTitle=小石潭记, human={$ref=$.result.data.articles[0].human}, humanId=0, typeId=2}, {articleContent=<p>sfdsfsdfasdfa</p>, articleId=2, articleIssueTime=1688091123000, articleTitle=ddsf, human={humanEmail=xiaojun@email, humanId=2, humanName=xiaojun, humanNiceName=隔壁老王, humanPassword=admin}, humanId=0, typeId=3}], allPage=1}, message=成功}
+请求设备信息	:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188
+
+=日志信息==== 2023年08月09日 16时58分49秒 ===
+日志类型		:INFO
+操作描述		:null
+操作用户		:admin
+URL			:/to/base/navigation
+消耗时间		:35 ms
+请求类型		:get
+IP地址		:0:0:0:0:0:0:0:1
+请求参数		:{path=base, page=navigation}
+请求返回的结果	:base/navigation
+请求设备信息	:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188
+
+=日志信息==== 2023年08月09日 16时58分50秒 ===
+日志类型		:INFO
+操作描述		:获取文章类别列表
+操作用户		:admin
+URL			:/type/typeList
+消耗时间		:9 ms
+请求类型		:post
+IP地址		:0:0:0:0:0:0:0:1
+请求参数		:null
+请求返回的结果	:{code=200, data=[{typeId=2, typeName=我的日记}, {typeId=3, typeName=我的感悟}, {typeId=4, typeName=我的相册}], message=成功}
+请求设备信息	:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188
+
+=日志信息==== 2023年08月09日 16时58分52秒 ===
+日志类型		:INFO
+操作描述		:根据 id 获取文章数据
+操作用户		:admin
+URL			:/article/articleById/12
+消耗时间		:15 ms
+请求类型		:post
+IP地址		:0:0:0:0:0:0:0:1
+请求参数		:{articleId=12}
+请求返回的结果	:{code=200, data={articleContent=<p>东临碣石，以观沧海。水何澹澹，山岛竦峙。树木丛生，百草丰茂。秋风萧瑟，洪波涌起。日月之行，若出其中；星汉灿烂，若出其里。幸甚至哉，歌以咏志。<br></p>, articleId=12, articleIssueTime=1691569773000, articleTitle=观沧海, human={humanEmail=xiaohong@email.com, humanId=1, humanName=admin, humanNiceName=小怪, humanPassword=123abc}, humanId=1, type={typeId=2, typeName=我的日记}, typeId=2}, message=成功}
+请求设备信息	:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188
+
+=日志信息==== 2023年08月09日 16时58分52秒 ===
+日志类型		:INFO
+操作描述		:根据文章id查询文章评论
+操作用户		:admin
+URL			:/reply/split/12/1
+消耗时间		:20 ms
+请求类型		:post
+IP地址		:0:0:0:0:0:0:0:1
+请求参数		:{articleId=12, currentPage=1}
+请求返回的结果	:{code=200, data={replies=[], allPage=0}, message=成功}
+请求设备信息	:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188
+
+=日志信息==== 2023年08月09日 16时58分52秒 ===
+日志类型		:INFO
+操作描述		:null
+操作用户		:admin
+URL			:/to/base/navigation
+消耗时间		:20 ms
+请求类型		:get
+IP地址		:0:0:0:0:0:0:0:1
+请求参数		:{path=base, page=navigation}
+请求返回的结果	:base/navigation
+请求设备信息	:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188
+
+=日志信息==== 2023年08月09日 16时58分52秒 ===
+日志类型		:INFO
+操作描述		:获取文章类别列表
+操作用户		:admin
+URL			:/type/typeList
+消耗时间		:10 ms
+请求类型		:post
+IP地址		:0:0:0:0:0:0:0:1
+请求参数		:null
+请求返回的结果	:{code=200, data=[{typeId=2, typeName=我的日记}, {typeId=3, typeName=我的感悟}, {typeId=4, typeName=我的相册}], message=成功}
+请求设备信息	:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188
+
+=日志信息==== 2023年08月09日 16时58分55秒 ===
+日志类型		:INFO
+操作描述		:null
+操作用户		:admin
+URL			:/to/base/navigation
+消耗时间		:19 ms
+请求类型		:get
+IP地址		:0:0:0:0:0:0:0:1
+请求参数		:{path=base, page=navigation}
+请求返回的结果	:base/navigation
+请求设备信息	:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188
+
+=日志信息==== 2023年08月09日 16时58分55秒 ===
+日志类型		:INFO
+操作描述		:根据文章的点击量查询排名前十的文章内容。在每天指定时间查询 redis 中的排行榜数据，然后将其写入本地文件，在之后的时间只读取本地文件数据，在本地文件数据存在的情况下
+操作用户		:admin
+URL			:/article/ranking
+消耗时间		:13 ms
+请求类型		:post
+IP地址		:0:0:0:0:0:0:0:1
+请求参数		:null
+请求返回的结果	:{code=200, data=[{articleContent=<p>事实是事实是事实是事实烧死是事实是黑色试试hi实施烧死是事实是事实是是是是是是是</p>, articleId=4, articleIssueTime=1690892581000, articleTitle=是是记, humanId=1, typeId=2}, {articleContent=<p>晋元中，武陵人捕鱼为业。黄河之水天上来。劝君更进一杯酒。</p>, articleId=3, articleIssueTime=1690891522000, articleTitle=小石潭记, humanId=1, typeId=2}, {articleContent=<p>sfdsfsdfasdfa</p>, articleId=2, articleIssueTime=1688091123000, articleTitle=ddsf, humanId=2, typeId=3}], message=成功}
+请求设备信息	:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188
+
+=日志信息==== 2023年08月09日 16时58分55秒 ===
+日志类型		:INFO
+操作描述		:获取文章类别列表
+操作用户		:admin
+URL			:/type/typeList
+消耗时间		:24 ms
+请求类型		:post
+IP地址		:0:0:0:0:0:0:0:1
+请求参数		:null
+请求返回的结果	:{code=200, data=[{typeId=2, typeName=我的日记}, {typeId=3, typeName=我的感悟}, {typeId=4, typeName=我的相册}], message=成功}
+请求设备信息	:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188
+
+=日志信息==== 2023年08月09日 16时58分58秒 ===
+日志类型		:INFO
+操作描述		:查询指定页的内容，显示在指定的页面
+操作用户		:admin
+URL			:/article/articleList/1
+消耗时间		:22 ms
+请求类型		:post
+IP地址		:0:0:0:0:0:0:0:1
+请求参数		:{currentPage=1}
+请求返回的结果	:{code=200, data={articles=[{articleContent=<p>东临碣石，以观沧海。水何澹澹，山岛竦峙。树木丛生，百草丰茂。秋风萧瑟，洪波涌起。日月之行，若出其中；星汉灿烂，若出其里。幸甚至哉，歌以咏志。<br></p>, articleId=12, articleIssueTime=1691569773000, articleTitle=观沧海, human={humanEmail=xiaohong@email.com, humanId=1, humanName=admin, humanNiceName=小怪, humanPassword=123abc}, humanId=0, typeId=2}, {articleContent=<p>asasaasas</p>, articleId=11, articleIssueTime=1691052525000, articleTitle=bbbaaaa, human={$ref=$.result.data.articles[0].human}, humanId=0, typeId=2}, {articleContent=<p>观自在菩萨，行深般若波罗蜜多时，照见五蕴皆空，度一切苦厄。舍利子，色不异空，空不异色，色即是空，空即是色，受想行识，亦复如是。<br></p>, articleId=10, articleIssueTime=1691049588000, articleTitle=心经, human={$ref=$.result.data.articles[0].human}, humanId=0, typeId=2}, {articleContent=<p>北冥有鱼，其名为鲲。鲲之大，不知其几千里也；化而为鸟，其名为鹏。鹏之背，不知其几千里也；怒而飞，其翼若垂天之云。是鸟也，海运则将徙于南冥。南冥者，天池也。《齐谐》者，志怪者也。<br></p>, articleId=9, articleIssueTime=1691049027000, articleTitle=逍遥游, human={$ref=$.result.data.articles[0].human}, humanId=0, typeId=2}, {articleContent=<p>道可道也，非恒道也。名可名也，非恒名也。无名万物之始也，有名万物之母也。故：恒无欲也，以观其眇；恒有欲也，以观其徼。两者同出，异名同谓。玄之又玄，众妙之门。<br></p>, articleId=8, articleIssueTime=1691048972000, articleTitle=道德经, human={$ref=$.result.data.articles[0].human}, humanId=0, typeId=2}, {articleContent=<p>先帝创业未半而中道崩殂，今天下三分，益州疲弊，此诚危急存亡之秋也。然侍卫之臣不懈于内，忠志之士忘身于外者，盖追先帝之殊遇，欲报之于陛下也。诚宜开张圣听，以光先帝遗德，恢弘志士之气，不宜妄自菲薄，引喻失义，以塞忠谏之路也。<br></p>, articleId=7, articleIssueTime=1691048636000, articleTitle=出师表, human={$ref=$.result.data.articles[0].human}, humanId=0, typeId=2}, {articleContent=<p>事实是事实是事实是事实烧死是事实是黑色试试hi实施烧死是事实是事实是是是是是是是</p>, articleId=4, articleIssueTime=1690892581000, articleTitle=是是记, human={$ref=$.result.data.articles[0].human}, humanId=0, typeId=2}, {articleContent=<p>晋元中，武陵人捕鱼为业。黄河之水天上来。劝君更进一杯酒。</p>, articleId=3, articleIssueTime=1690891522000, articleTitle=小石潭记, human={$ref=$.result.data.articles[0].human}, humanId=0, typeId=2}, {articleContent=<p>sfdsfsdfasdfa</p>, articleId=2, articleIssueTime=1688091123000, articleTitle=ddsf, human={humanEmail=xiaojun@email, humanId=2, humanName=xiaojun, humanNiceName=隔壁老王, humanPassword=admin}, humanId=0, typeId=3}], allPage=1}, message=成功}
+请求设备信息	:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188
+
+=日志信息==== 2023年08月09日 16时58分58秒 ===
+日志类型		:INFO
+操作描述		:null
+操作用户		:admin
+URL			:/to/base/navigation
+消耗时间		:30 ms
+请求类型		:get
+IP地址		:0:0:0:0:0:0:0:1
+请求参数		:{path=base, page=navigation}
+请求返回的结果	:base/navigation
+请求设备信息	:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188
+
+=日志信息==== 2023年08月09日 16时58分58秒 ===
+日志类型		:INFO
+操作描述		:获取文章类别列表
+操作用户		:admin
+URL			:/type/typeList
+消耗时间		:7 ms
+请求类型		:post
+IP地址		:0:0:0:0:0:0:0:1
+请求参数		:null
+请求返回的结果	:{code=200, data=[{typeId=2, typeName=我的日记}, {typeId=3, typeName=我的感悟}, {typeId=4, typeName=我的相册}], message=成功}
+请求设备信息	:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188
+
+=日志信息==== 2023年08月09日 16时59分21秒 ===
+日志类型		:INFO
+操作描述		:null
+操作用户		:admin
+URL			:/to/base/navigation
+消耗时间		:22 ms
+请求类型		:get
+IP地址		:0:0:0:0:0:0:0:1
+请求参数		:{path=base, page=navigation}
+请求返回的结果	:base/navigation
+请求设备信息	:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188
+
+=日志信息==== 2023年08月09日 16时59分21秒 ===
+日志类型		:INFO
+操作描述		:根据文章的点击量查询排名前十的文章内容。在每天指定时间查询 redis 中的排行榜数据，然后将其写入本地文件，在之后的时间只读取本地文件数据，在本地文件数据存在的情况下
+操作用户		:admin
+URL			:/article/ranking
+消耗时间		:9 ms
+请求类型		:post
+IP地址		:0:0:0:0:0:0:0:1
+请求参数		:null
+请求返回的结果	:{code=200, data=[{articleContent=<p>事实是事实是事实是事实烧死是事实是黑色试试hi实施烧死是事实是事实是是是是是是是</p>, articleId=4, articleIssueTime=1690892581000, articleTitle=是是记, humanId=1, typeId=2}, {articleContent=<p>晋元中，武陵人捕鱼为业。黄河之水天上来。劝君更进一杯酒。</p>, articleId=3, articleIssueTime=1690891522000, articleTitle=小石潭记, humanId=1, typeId=2}, {articleContent=<p>sfdsfsdfasdfa</p>, articleId=2, articleIssueTime=1688091123000, articleTitle=ddsf, humanId=2, typeId=3}], message=成功}
+请求设备信息	:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188
+
+=日志信息==== 2023年08月09日 16时59分21秒 ===
+日志类型		:INFO
+操作描述		:获取文章类别列表
+操作用户		:admin
+URL			:/type/typeList
+消耗时间		:18 ms
+请求类型		:post
+IP地址		:0:0:0:0:0:0:0:1
+请求参数		:null
+请求返回的结果	:{code=200, data=[{typeId=2, typeName=我的日记}, {typeId=3, typeName=我的感悟}, {typeId=4, typeName=我的相册}], message=成功}
+请求设备信息	:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188
+
+=日志信息==== 2023年08月09日 16时59分27秒 ===
+日志类型		:INFO
+操作描述		:查询指定页的内容，显示在指定的页面
+操作用户		:admin
+URL			:/article/articleList/1
+消耗时间		:15 ms
+请求类型		:post
+IP地址		:0:0:0:0:0:0:0:1
+请求参数		:{currentPage=1}
+请求返回的结果	:{code=200, data={articles=[{articleContent=<p>东临碣石，以观沧海。水何澹澹，山岛竦峙。树木丛生，百草丰茂。秋风萧瑟，洪波涌起。日月之行，若出其中；星汉灿烂，若出其里。幸甚至哉，歌以咏志。<br></p>, articleId=12, articleIssueTime=1691569773000, articleTitle=观沧海, human={humanEmail=xiaohong@email.com, humanId=1, humanName=admin, humanNiceName=小怪, humanPassword=123abc}, humanId=0, typeId=2}, {articleContent=<p>asasaasas</p>, articleId=11, articleIssueTime=1691052525000, articleTitle=bbbaaaa, human={$ref=$.result.data.articles[0].human}, humanId=0, typeId=2}, {articleContent=<p>观自在菩萨，行深般若波罗蜜多时，照见五蕴皆空，度一切苦厄。舍利子，色不异空，空不异色，色即是空，空即是色，受想行识，亦复如是。<br></p>, articleId=10, articleIssueTime=1691049588000, articleTitle=心经, human={$ref=$.result.data.articles[0].human}, humanId=0, typeId=2}, {articleContent=<p>北冥有鱼，其名为鲲。鲲之大，不知其几千里也；化而为鸟，其名为鹏。鹏之背，不知其几千里也；怒而飞，其翼若垂天之云。是鸟也，海运则将徙于南冥。南冥者，天池也。《齐谐》者，志怪者也。<br></p>, articleId=9, articleIssueTime=1691049027000, articleTitle=逍遥游, human={$ref=$.result.data.articles[0].human}, humanId=0, typeId=2}, {articleContent=<p>道可道也，非恒道也。名可名也，非恒名也。无名万物之始也，有名万物之母也。故：恒无欲也，以观其眇；恒有欲也，以观其徼。两者同出，异名同谓。玄之又玄，众妙之门。<br></p>, articleId=8, articleIssueTime=1691048972000, articleTitle=道德经, human={$ref=$.result.data.articles[0].human}, humanId=0, typeId=2}, {articleContent=<p>先帝创业未半而中道崩殂，今天下三分，益州疲弊，此诚危急存亡之秋也。然侍卫之臣不懈于内，忠志之士忘身于外者，盖追先帝之殊遇，欲报之于陛下也。诚宜开张圣听，以光先帝遗德，恢弘志士之气，不宜妄自菲薄，引喻失义，以塞忠谏之路也。<br></p>, articleId=7, articleIssueTime=1691048636000, articleTitle=出师表, human={$ref=$.result.data.articles[0].human}, humanId=0, typeId=2}, {articleContent=<p>事实是事实是事实是事实烧死是事实是黑色试试hi实施烧死是事实是事实是是是是是是是</p>, articleId=4, articleIssueTime=1690892581000, articleTitle=是是记, human={$ref=$.result.data.articles[0].human}, humanId=0, typeId=2}, {articleContent=<p>晋元中，武陵人捕鱼为业。黄河之水天上来。劝君更进一杯酒。</p>, articleId=3, articleIssueTime=1690891522000, articleTitle=小石潭记, human={$ref=$.result.data.articles[0].human}, humanId=0, typeId=2}, {articleContent=<p>sfdsfsdfasdfa</p>, articleId=2, articleIssueTime=1688091123000, articleTitle=ddsf, human={humanEmail=xiaojun@email, humanId=2, humanName=xiaojun, humanNiceName=隔壁老王, humanPassword=admin}, humanId=0, typeId=3}], allPage=1}, message=成功}
+请求设备信息	:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188
+
+=日志信息==== 2023年08月09日 16时59分27秒 ===
+日志类型		:INFO
+操作描述		:null
+操作用户		:admin
+URL			:/to/base/navigation
+消耗时间		:18 ms
+请求类型		:get
+IP地址		:0:0:0:0:0:0:0:1
+请求参数		:{path=base, page=navigation}
+请求返回的结果	:base/navigation
+请求设备信息	:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188
+
+=日志信息==== 2023年08月09日 16时59分27秒 ===
+日志类型		:INFO
+操作描述		:获取文章类别列表
+操作用户		:admin
+URL			:/type/typeList
+消耗时间		:6 ms
+请求类型		:post
+IP地址		:0:0:0:0:0:0:0:1
+请求参数		:null
+请求返回的结果	:{code=200, data=[{typeId=2, typeName=我的日记}, {typeId=3, typeName=我的感悟}, {typeId=4, typeName=我的相册}], message=成功}
+请求设备信息	:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188
+
+=日志信息==== 2023年08月09日 16时59分29秒 ===
+日志类型		:INFO
+操作描述		:null
+操作用户		:admin
+URL			:/to/base/navigation
+消耗时间		:10 ms
+请求类型		:get
+IP地址		:0:0:0:0:0:0:0:1
+请求参数		:{path=base, page=navigation}
+请求返回的结果	:base/navigation
+请求设备信息	:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188
+
+=日志信息==== 2023年08月09日 16时59分29秒 ===
+日志类型		:INFO
+操作描述		:根据文章的点击量查询排名前十的文章内容。在每天指定时间查询 redis 中的排行榜数据，然后将其写入本地文件，在之后的时间只读取本地文件数据，在本地文件数据存在的情况下
+操作用户		:admin
+URL			:/article/ranking
+消耗时间		:10 ms
+请求类型		:post
+IP地址		:0:0:0:0:0:0:0:1
+请求参数		:null
+请求返回的结果	:{code=200, data=[{articleContent=<p>事实是事实是事实是事实烧死是事实是黑色试试hi实施烧死是事实是事实是是是是是是是</p>, articleId=4, articleIssueTime=1690892581000, articleTitle=是是记, humanId=1, typeId=2}, {articleContent=<p>晋元中，武陵人捕鱼为业。黄河之水天上来。劝君更进一杯酒。</p>, articleId=3, articleIssueTime=1690891522000, articleTitle=小石潭记, humanId=1, typeId=2}, {articleContent=<p>sfdsfsdfasdfa</p>, articleId=2, articleIssueTime=1688091123000, articleTitle=ddsf, humanId=2, typeId=3}], message=成功}
+请求设备信息	:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188
+
+=日志信息==== 2023年08月09日 16时59分30秒 ===
+日志类型		:INFO
+操作描述		:获取文章类别列表
+操作用户		:admin
+URL			:/type/typeList
+消耗时间		:12 ms
+请求类型		:post
+IP地址		:0:0:0:0:0:0:0:1
+请求参数		:null
+请求返回的结果	:{code=200, data=[{typeId=2, typeName=我的日记}, {typeId=3, typeName=我的感悟}, {typeId=4, typeName=我的相册}], message=成功}
+请求设备信息	:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188
+
+=日志信息==== 2023年08月09日 16时59分31秒 ===
+日志类型		:INFO
+操作描述		:查询指定页的内容，显示在指定的页面
+操作用户		:admin
+URL			:/article/articleList/1
+消耗时间		:12 ms
+请求类型		:post
+IP地址		:0:0:0:0:0:0:0:1
+请求参数		:{currentPage=1}
+请求返回的结果	:{code=200, data={articles=[{articleContent=<p>东临碣石，以观沧海。水何澹澹，山岛竦峙。树木丛生，百草丰茂。秋风萧瑟，洪波涌起。日月之行，若出其中；星汉灿烂，若出其里。幸甚至哉，歌以咏志。<br></p>, articleId=12, articleIssueTime=1691569773000, articleTitle=观沧海, human={humanEmail=xiaohong@email.com, humanId=1, humanName=admin, humanNiceName=小怪, humanPassword=123abc}, humanId=0, typeId=2}, {articleContent=<p>asasaasas</p>, articleId=11, articleIssueTime=1691052525000, articleTitle=bbbaaaa, human={$ref=$.result.data.articles[0].human}, humanId=0, typeId=2}, {articleContent=<p>观自在菩萨，行深般若波罗蜜多时，照见五蕴皆空，度一切苦厄。舍利子，色不异空，空不异色，色即是空，空即是色，受想行识，亦复如是。<br></p>, articleId=10, articleIssueTime=1691049588000, articleTitle=心经, human={$ref=$.result.data.articles[0].human}, humanId=0, typeId=2}, {articleContent=<p>北冥有鱼，其名为鲲。鲲之大，不知其几千里也；化而为鸟，其名为鹏。鹏之背，不知其几千里也；怒而飞，其翼若垂天之云。是鸟也，海运则将徙于南冥。南冥者，天池也。《齐谐》者，志怪者也。<br></p>, articleId=9, articleIssueTime=1691049027000, articleTitle=逍遥游, human={$ref=$.result.data.articles[0].human}, humanId=0, typeId=2}, {articleContent=<p>道可道也，非恒道也。名可名也，非恒名也。无名万物之始也，有名万物之母也。故：恒无欲也，以观其眇；恒有欲也，以观其徼。两者同出，异名同谓。玄之又玄，众妙之门。<br></p>, articleId=8, articleIssueTime=1691048972000, articleTitle=道德经, human={$ref=$.result.data.articles[0].human}, humanId=0, typeId=2}, {articleContent=<p>先帝创业未半而中道崩殂，今天下三分，益州疲弊，此诚危急存亡之秋也。然侍卫之臣不懈于内，忠志之士忘身于外者，盖追先帝之殊遇，欲报之于陛下也。诚宜开张圣听，以光先帝遗德，恢弘志士之气，不宜妄自菲薄，引喻失义，以塞忠谏之路也。<br></p>, articleId=7, articleIssueTime=1691048636000, articleTitle=出师表, human={$ref=$.result.data.articles[0].human}, humanId=0, typeId=2}, {articleContent=<p>事实是事实是事实是事实烧死是事实是黑色试试hi实施烧死是事实是事实是是是是是是是</p>, articleId=4, articleIssueTime=1690892581000, articleTitle=是是记, human={$ref=$.result.data.articles[0].human}, humanId=0, typeId=2}, {articleContent=<p>晋元中，武陵人捕鱼为业。黄河之水天上来。劝君更进一杯酒。</p>, articleId=3, articleIssueTime=1690891522000, articleTitle=小石潭记, human={$ref=$.result.data.articles[0].human}, humanId=0, typeId=2}, {articleContent=<p>sfdsfsdfasdfa</p>, articleId=2, articleIssueTime=1688091123000, articleTitle=ddsf, human={humanEmail=xiaojun@email, humanId=2, humanName=xiaojun, humanNiceName=隔壁老王, humanPassword=admin}, humanId=0, typeId=3}], allPage=1}, message=成功}
+请求设备信息	:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188
+
+=日志信息==== 2023年08月09日 16时59分31秒 ===
+日志类型		:INFO
+操作描述		:null
+操作用户		:admin
+URL			:/to/base/navigation
+消耗时间		:21 ms
+请求类型		:get
+IP地址		:0:0:0:0:0:0:0:1
+请求参数		:{path=base, page=navigation}
+请求返回的结果	:base/navigation
+请求设备信息	:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188
+
+=日志信息==== 2023年08月09日 16时59分31秒 ===
+日志类型		:INFO
+操作描述		:获取文章类别列表
+操作用户		:admin
+URL			:/type/typeList
+消耗时间		:5 ms
+请求类型		:post
+IP地址		:0:0:0:0:0:0:0:1
+请求参数		:null
+请求返回的结果	:{code=200, data=[{typeId=2, typeName=我的日记}, {typeId=3, typeName=我的感悟}, {typeId=4, typeName=我的相册}], message=成功}
+请求设备信息	:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188
+
+=日志信息==== 2023年08月09日 16时59分32秒 ===
+日志类型		:INFO
+操作描述		:根据 id 获取文章数据
+操作用户		:admin
+URL			:/article/articleById/10
+消耗时间		:11 ms
+请求类型		:post
+IP地址		:0:0:0:0:0:0:0:1
+请求参数		:{articleId=10}
+请求返回的结果	:{code=200, data={articleContent=<p>观自在菩萨，行深般若波罗蜜多时，照见五蕴皆空，度一切苦厄。舍利子，色不异空，空不异色，色即是空，空即是色，受想行识，亦复如是。<br></p>, articleId=10, articleIssueTime=1691049588000, articleTitle=心经, human={humanEmail=xiaohong@email.com, humanId=1, humanName=admin, humanNiceName=小怪, humanPassword=123abc}, humanId=1, type={typeId=2, typeName=我的日记}, typeId=2}, message=成功}
+请求设备信息	:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188
+
+=日志信息==== 2023年08月09日 16时59分32秒 ===
+日志类型		:INFO
+操作描述		:null
+操作用户		:admin
+URL			:/to/base/navigation
+消耗时间		:12 ms
+请求类型		:get
+IP地址		:0:0:0:0:0:0:0:1
+请求参数		:{path=base, page=navigation}
+请求返回的结果	:base/navigation
+请求设备信息	:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188
+
+=日志信息==== 2023年08月09日 16时59分32秒 ===
+日志类型		:INFO
+操作描述		:根据文章id查询文章评论
+操作用户		:admin
+URL			:/reply/split/10/1
+消耗时间		:12 ms
+请求类型		:post
+IP地址		:0:0:0:0:0:0:0:1
+请求参数		:{articleId=10, currentPage=1}
+请求返回的结果	:{code=200, data={replies=[], allPage=0}, message=成功}
+请求设备信息	:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188
+
+=日志信息==== 2023年08月09日 16时59分32秒 ===
+日志类型		:INFO
+操作描述		:获取文章类别列表
+操作用户		:admin
+URL			:/type/typeList
+消耗时间		:12 ms
+请求类型		:post
+IP地址		:0:0:0:0:0:0:0:1
+请求参数		:null
+请求返回的结果	:{code=200, data=[{typeId=2, typeName=我的日记}, {typeId=3, typeName=我的感悟}, {typeId=4, typeName=我的相册}], message=成功}
+请求设备信息	:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188
+
+=日志信息==== 2023年08月09日 16时59分38秒 ===
+日志类型		:INFO
+操作描述		:null
+操作用户		:admin
+URL			:/to/base/navigation
+消耗时间		:9 ms
+请求类型		:get
+IP地址		:0:0:0:0:0:0:0:1
+请求参数		:{path=base, page=navigation}
+请求返回的结果	:base/navigation
+请求设备信息	:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188
+
+=日志信息==== 2023年08月09日 16时59分38秒 ===
+日志类型		:INFO
+操作描述		:根据文章的点击量查询排名前十的文章内容。在每天指定时间查询 redis 中的排行榜数据，然后将其写入本地文件，在之后的时间只读取本地文件数据，在本地文件数据存在的情况下
+操作用户		:admin
+URL			:/article/ranking
+消耗时间		:9 ms
+请求类型		:post
+IP地址		:0:0:0:0:0:0:0:1
+请求参数		:null
+请求返回的结果	:{code=200, data=[{articleContent=<p>事实是事实是事实是事实烧死是事实是黑色试试hi实施烧死是事实是事实是是是是是是是</p>, articleId=4, articleIssueTime=1690892581000, articleTitle=是是记, humanId=1, typeId=2}, {articleContent=<p>晋元中，武陵人捕鱼为业。黄河之水天上来。劝君更进一杯酒。</p>, articleId=3, articleIssueTime=1690891522000, articleTitle=小石潭记, humanId=1, typeId=2}, {articleContent=<p>sfdsfsdfasdfa</p>, articleId=2, articleIssueTime=1688091123000, articleTitle=ddsf, humanId=2, typeId=3}], message=成功}
+请求设备信息	:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188
+
+=日志信息==== 2023年08月09日 16时59分39秒 ===
+日志类型		:INFO
+操作描述		:获取文章类别列表
+操作用户		:admin
+URL			:/type/typeList
+消耗时间		:11 ms
+请求类型		:post
+IP地址		:0:0:0:0:0:0:0:1
+请求参数		:null
+请求返回的结果	:{code=200, data=[{typeId=2, typeName=我的日记}, {typeId=3, typeName=我的感悟}, {typeId=4, typeName=我的相册}], message=成功}
+请求设备信息	:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188
+
+=日志信息==== 2023年08月09日 17时01分14秒 ===
+日志类型		:INFO
+操作描述		:查询指定页的内容，显示在指定的页面
+操作用户		:admin
+URL			:/article/articleList/1
+消耗时间		:12 ms
+请求类型		:post
+IP地址		:0:0:0:0:0:0:0:1
+请求参数		:{currentPage=1}
+请求返回的结果	:{code=200, data={articles=[{articleContent=<p>东临碣石，以观沧海。水何澹澹，山岛竦峙。树木丛生，百草丰茂。秋风萧瑟，洪波涌起。日月之行，若出其中；星汉灿烂，若出其里。幸甚至哉，歌以咏志。<br></p>, articleId=12, articleIssueTime=1691569773000, articleTitle=观沧海, human={humanEmail=xiaohong@email.com, humanId=1, humanName=admin, humanNiceName=小怪, humanPassword=123abc}, humanId=0, typeId=2}, {articleContent=<p>asasaasas</p>, articleId=11, articleIssueTime=1691052525000, articleTitle=bbbaaaa, human={$ref=$.result.data.articles[0].human}, humanId=0, typeId=2}, {articleContent=<p>观自在菩萨，行深般若波罗蜜多时，照见五蕴皆空，度一切苦厄。舍利子，色不异空，空不异色，色即是空，空即是色，受想行识，亦复如是。<br></p>, articleId=10, articleIssueTime=1691049588000, articleTitle=心经, human={$ref=$.result.data.articles[0].human}, humanId=0, typeId=2}, {articleContent=<p>北冥有鱼，其名为鲲。鲲之大，不知其几千里也；化而为鸟，其名为鹏。鹏之背，不知其几千里也；怒而飞，其翼若垂天之云。是鸟也，海运则将徙于南冥。南冥者，天池也。《齐谐》者，志怪者也。<br></p>, articleId=9, articleIssueTime=1691049027000, articleTitle=逍遥游, human={$ref=$.result.data.articles[0].human}, humanId=0, typeId=2}, {articleContent=<p>道可道也，非恒道也。名可名也，非恒名也。无名万物之始也，有名万物之母也。故：恒无欲也，以观其眇；恒有欲也，以观其徼。两者同出，异名同谓。玄之又玄，众妙之门。<br></p>, articleId=8, articleIssueTime=1691048972000, articleTitle=道德经, human={$ref=$.result.data.articles[0].human}, humanId=0, typeId=2}, {articleContent=<p>先帝创业未半而中道崩殂，今天下三分，益州疲弊，此诚危急存亡之秋也。然侍卫之臣不懈于内，忠志之士忘身于外者，盖追先帝之殊遇，欲报之于陛下也。诚宜开张圣听，以光先帝遗德，恢弘志士之气，不宜妄自菲薄，引喻失义，以塞忠谏之路也。<br></p>, articleId=7, articleIssueTime=1691048636000, articleTitle=出师表, human={$ref=$.result.data.articles[0].human}, humanId=0, typeId=2}, {articleContent=<p>事实是事实是事实是事实烧死是事实是黑色试试hi实施烧死是事实是事实是是是是是是是</p>, articleId=4, articleIssueTime=1690892581000, articleTitle=是是记, human={$ref=$.result.data.articles[0].human}, humanId=0, typeId=2}, {articleContent=<p>晋元中，武陵人捕鱼为业。黄河之水天上来。劝君更进一杯酒。</p>, articleId=3, articleIssueTime=1690891522000, articleTitle=小石潭记, human={$ref=$.result.data.articles[0].human}, humanId=0, typeId=2}, {articleContent=<p>sfdsfsdfasdfa</p>, articleId=2, articleIssueTime=1688091123000, articleTitle=ddsf, human={humanEmail=xiaojun@email, humanId=2, humanName=xiaojun, humanNiceName=隔壁老王, humanPassword=admin}, humanId=0, typeId=3}], allPage=1}, message=成功}
+请求设备信息	:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188
+
+=日志信息==== 2023年08月09日 17时01分14秒 ===
+日志类型		:INFO
+操作描述		:null
+操作用户		:admin
+URL			:/to/base/navigation
+消耗时间		:19 ms
+请求类型		:get
+IP地址		:0:0:0:0:0:0:0:1
+请求参数		:{path=base, page=navigation}
+请求返回的结果	:base/navigation
+请求设备信息	:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188
+
+=日志信息==== 2023年08月09日 17时01分14秒 ===
+日志类型		:INFO
+操作描述		:获取文章类别列表
+操作用户		:admin
+URL			:/type/typeList
+消耗时间		:8 ms
+请求类型		:post
+IP地址		:0:0:0:0:0:0:0:1
+请求参数		:null
+请求返回的结果	:{code=200, data=[{typeId=2, typeName=我的日记}, {typeId=3, typeName=我的感悟}, {typeId=4, typeName=我的相册}], message=成功}
+请求设备信息	:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188
+
+=日志信息==== 2023年08月09日 17时05分14秒 ===
+日志类型		:INFO
+操作描述		:null
+操作用户		:admin
+URL			:/to/base/navigation
+消耗时间		:13 ms
+请求类型		:get
+IP地址		:0:0:0:0:0:0:0:1
+请求参数		:{path=base, page=navigation}
+请求返回的结果	:base/navigation
+请求设备信息	:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188
+
+=日志信息==== 2023年08月09日 17时05分14秒 ===
+日志类型		:INFO
+操作描述		:根据文章的点击量查询排名前十的文章内容。在每天指定时间查询 redis 中的排行榜数据，然后将其写入本地文件，在之后的时间只读取本地文件数据，在本地文件数据存在的情况下
+操作用户		:admin
+URL			:/article/ranking
+消耗时间		:11 ms
+请求类型		:post
+IP地址		:0:0:0:0:0:0:0:1
+请求参数		:null
+请求返回的结果	:{code=200, data=[{articleContent=<p>事实是事实是事实是事实烧死是事实是黑色试试hi实施烧死是事实是事实是是是是是是是</p>, articleId=4, articleIssueTime=1690892581000, articleTitle=是是记, humanId=1, typeId=2}, {articleContent=<p>晋元中，武陵人捕鱼为业。黄河之水天上来。劝君更进一杯酒。</p>, articleId=3, articleIssueTime=1690891522000, articleTitle=小石潭记, humanId=1, typeId=2}, {articleContent=<p>sfdsfsdfasdfa</p>, articleId=2, articleIssueTime=1688091123000, articleTitle=ddsf, humanId=2, typeId=3}], message=成功}
+请求设备信息	:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188
+
+=日志信息==== 2023年08月09日 17时05分14秒 ===
+日志类型		:INFO
+操作描述		:获取文章类别列表
+操作用户		:admin
+URL			:/type/typeList
+消耗时间		:15 ms
+请求类型		:post
+IP地址		:0:0:0:0:0:0:0:1
+请求参数		:null
+请求返回的结果	:{code=200, data=[{typeId=2, typeName=我的日记}, {typeId=3, typeName=我的感悟}, {typeId=4, typeName=我的相册}], message=成功}
+请求设备信息	:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188
+
+=日志信息==== 2023年08月09日 17时10分40秒 ===
+日志类型		:INFO
+操作描述		:用户登录服务
+操作用户		:admin
+URL			:/login
+消耗时间		:3 ms
+请求类型		:post
+IP地址		:0:0:0:0:0:0:0:1
+请求参数		:{humanId=0, humanName=admin, humanPassword=123abc}
+请求返回的结果	:{code=200, data={humanEmail=xiaohong@email.com, humanId=1, humanName=admin, humanNiceName=小怪, humanPassword=123abc}, message=登录成功}
+请求设备信息	:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188
+
+=日志信息==== 2023年08月09日 17时10分40秒 ===
+日志类型		:INFO
+操作描述		:查询指定页的内容，显示在指定的页面
+操作用户		:admin
+URL			:/article/articleList/1
+消耗时间		:446 ms
+请求类型		:post
+IP地址		:0:0:0:0:0:0:0:1
+请求参数		:{currentPage=1}
+请求返回的结果	:{code=200, data={articles=[{articleContent=<p>东临碣石，以观沧海。水何澹澹，山岛竦峙。树木丛生，百草丰茂。秋风萧瑟，洪波涌起。日月之行，若出其中；星汉灿烂，若出其里。幸甚至哉，歌以咏志。<br></p>, articleId=12, articleIssueTime=1691569773000, articleTitle=观沧海, human={humanEmail=xiaohong@email.com, humanId=1, humanName=admin, humanNiceName=小怪, humanPassword=123abc}, humanId=0, typeId=2}, {articleContent=<p>asasaasas</p>, articleId=11, articleIssueTime=1691052525000, articleTitle=bbbaaaa, human={$ref=$.result.data.articles[0].human}, humanId=0, typeId=2}, {articleContent=<p>观自在菩萨，行深般若波罗蜜多时，照见五蕴皆空，度一切苦厄。舍利子，色不异空，空不异色，色即是空，空即是色，受想行识，亦复如是。<br></p>, articleId=10, articleIssueTime=1691049588000, articleTitle=心经, human={$ref=$.result.data.articles[0].human}, humanId=0, typeId=2}, {articleContent=<p>北冥有鱼，其名为鲲。鲲之大，不知其几千里也；化而为鸟，其名为鹏。鹏之背，不知其几千里也；怒而飞，其翼若垂天之云。是鸟也，海运则将徙于南冥。南冥者，天池也。《齐谐》者，志怪者也。<br></p>, articleId=9, articleIssueTime=1691049027000, articleTitle=逍遥游, human={$ref=$.result.data.articles[0].human}, humanId=0, typeId=2}, {articleContent=<p>道可道也，非恒道也。名可名也，非恒名也。无名万物之始也，有名万物之母也。故：恒无欲也，以观其眇；恒有欲也，以观其徼。两者同出，异名同谓。玄之又玄，众妙之门。<br></p>, articleId=8, articleIssueTime=1691048972000, articleTitle=道德经, human={$ref=$.result.data.articles[0].human}, humanId=0, typeId=2}, {articleContent=<p>先帝创业未半而中道崩殂，今天下三分，益州疲弊，此诚危急存亡之秋也。然侍卫之臣不懈于内，忠志之士忘身于外者，盖追先帝之殊遇，欲报之于陛下也。诚宜开张圣听，以光先帝遗德，恢弘志士之气，不宜妄自菲薄，引喻失义，以塞忠谏之路也。<br></p>, articleId=7, articleIssueTime=1691048636000, articleTitle=出师表, human={$ref=$.result.data.articles[0].human}, humanId=0, typeId=2}, {articleContent=<p>事实是事实是事实是事实烧死是事实是黑色试试hi实施烧死是事实是事实是是是是是是是</p>, articleId=4, articleIssueTime=1690892581000, articleTitle=是是记, human={$ref=$.result.data.articles[0].human}, humanId=0, typeId=2}, {articleContent=<p>晋元中，武陵人捕鱼为业。黄河之水天上来。劝君更进一杯酒。</p>, articleId=3, articleIssueTime=1690891522000, articleTitle=小石潭记, human={$ref=$.result.data.articles[0].human}, humanId=0, typeId=2}, {articleContent=<p>sfdsfsdfasdfa</p>, articleId=2, articleIssueTime=1688091123000, articleTitle=ddsf, human={humanEmail=xiaojun@email, humanId=2, humanName=xiaojun, humanNiceName=隔壁老王, humanPassword=admin}, humanId=0, typeId=3}], allPage=1}, message=成功}
+请求设备信息	:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188
+
+=日志信息==== 2023年08月09日 17时10分40秒 ===
+日志类型		:INFO
+操作描述		:null
+操作用户		:admin
+URL			:/to/base/navigation
+消耗时间		:51 ms
+请求类型		:get
+IP地址		:0:0:0:0:0:0:0:1
+请求参数		:{path=base, page=navigation}
+请求返回的结果	:base/navigation
+请求设备信息	:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188
+
+=日志信息==== 2023年08月09日 17时10分41秒 ===
+日志类型		:INFO
+操作描述		:获取文章类别列表
+操作用户		:admin
+URL			:/type/typeList
+消耗时间		:14 ms
+请求类型		:post
+IP地址		:0:0:0:0:0:0:0:1
+请求参数		:null
+请求返回的结果	:{code=200, data=[{typeId=2, typeName=我的日记}, {typeId=3, typeName=我的感悟}, {typeId=4, typeName=我的相册}], message=成功}
+请求设备信息	:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188
+
+=日志信息==== 2023年08月09日 17时10分43秒 ===
+日志类型		:INFO
+操作描述		:null
+操作用户		:admin
+URL			:/to/base/navigation
+消耗时间		:18 ms
+请求类型		:get
+IP地址		:0:0:0:0:0:0:0:1
+请求参数		:{path=base, page=navigation}
+请求返回的结果	:base/navigation
+请求设备信息	:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188
+
+=日志信息==== 2023年08月09日 17时10分43秒 ===
+日志类型		:INFO
+操作描述		:根据文章的点击量查询排名前十的文章内容。在每天指定时间查询 redis 中的排行榜数据，然后将其写入本地文件，在之后的时间只读取本地文件数据，在本地文件数据存在的情况下
+操作用户		:admin
+URL			:/article/ranking
+消耗时间		:7 ms
+请求类型		:post
+IP地址		:0:0:0:0:0:0:0:1
+请求参数		:null
+请求返回的结果	:{code=200, data=[{articleContent=<p>北冥有鱼，其名为鲲。鲲之大，不知其几千里也；化而为鸟，其名为鹏。鹏之背，不知其几千里也；怒而飞，其翼若垂天之云。是鸟也，海运则将徙于南冥。南冥者，天池也。《齐谐》者，志怪者也。<br></p>, articleId=9, articleIssueTime=1691049027000, articleTitle=逍遥游, humanId=1, typeId=2}, {articleContent=<p>事实是事实是事实是事实烧死是事实是黑色试试hi实施烧死是事实是事实是是是是是是是</p>, articleId=4, articleIssueTime=1690892581000, articleTitle=是是记, humanId=1, typeId=2}, {articleContent=<p>晋元中，武陵人捕鱼为业。黄河之水天上来。劝君更进一杯酒。</p>, articleId=3, articleIssueTime=1690891522000, articleTitle=小石潭记, humanId=1, typeId=2}, {articleContent=<p>sfdsfsdfasdfa</p>, articleId=2, articleIssueTime=1688091123000, articleTitle=ddsf, humanId=2, typeId=3}, {articleContent=<p>观自在菩萨，行深般若波罗蜜多时，照见五蕴皆空，度一切苦厄。舍利子，色不异空，空不异色，色即是空，空即是色，受想行识，亦复如是。<br></p>, articleId=10, articleIssueTime=1691049588000, articleTitle=心经, humanId=1, typeId=2}, {articleContent=<p>道可道也，非恒道也。名可名也，非恒名也。无名万物之始也，有名万物之母也。故：恒无欲也，以观其眇；恒有欲也，以观其徼。两者同出，异名同谓。玄之又玄，众妙之门。<br></p>, articleId=8, articleIssueTime=1691048972000, articleTitle=道德经, humanId=1, typeId=2}, {articleContent=<p>东临碣石，以观沧海。水何澹澹，山岛竦峙。树木丛生，百草丰茂。秋风萧瑟，洪波涌起。日月之行，若出其中；星汉灿烂，若出其里。幸甚至哉，歌以咏志。<br></p>, articleId=12, articleIssueTime=1691569773000, articleTitle=观沧海, humanId=1, typeId=2}, {articleContent=<p>asasaasas</p>, articleId=11, articleIssueTime=1691052525000, articleTitle=bbbaaaa, humanId=1, typeId=2}], message=成功}
+请求设备信息	:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188
+
+=日志信息==== 2023年08月09日 17时10分44秒 ===
+日志类型		:INFO
+操作描述		:获取文章类别列表
+操作用户		:admin
+URL			:/type/typeList
+消耗时间		:706 ms
+请求类型		:post
+IP地址		:0:0:0:0:0:0:0:1
+请求参数		:null
+请求返回的结果	:{code=200, data=[{typeId=2, typeName=我的日记}, {typeId=3, typeName=我的感悟}, {typeId=4, typeName=我的相册}], message=成功}
+请求设备信息	:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188
+
+=日志信息==== 2023年08月09日 17时11分42秒 ===
+日志类型		:INFO
+操作描述		:根据 id 获取文章数据
+操作用户		:admin
+URL			:/article/articleById/9
+消耗时间		:12 ms
+请求类型		:post
+IP地址		:0:0:0:0:0:0:0:1
+请求参数		:{articleId=9}
+请求返回的结果	:{code=200, data={articleContent=<p>北冥有鱼，其名为鲲。鲲之大，不知其几千里也；化而为鸟，其名为鹏。鹏之背，不知其几千里也；怒而飞，其翼若垂天之云。是鸟也，海运则将徙于南冥。南冥者，天池也。《齐谐》者，志怪者也。<br></p>, articleId=9, articleIssueTime=1691049027000, articleTitle=逍遥游, human={humanEmail=xiaohong@email.com, humanId=1, humanName=admin, humanNiceName=小怪, humanPassword=123abc}, humanId=1, type={typeId=2, typeName=我的日记}, typeId=2}, message=成功}
+请求设备信息	:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188
+
+=日志信息==== 2023年08月09日 17时11分42秒 ===
+日志类型		:INFO
+操作描述		:null
+操作用户		:admin
+URL			:/to/base/navigation
+消耗时间		:14 ms
+请求类型		:get
+IP地址		:0:0:0:0:0:0:0:1
+请求参数		:{path=base, page=navigation}
+请求返回的结果	:base/navigation
+请求设备信息	:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188
+
+=日志信息==== 2023年08月09日 17时11分42秒 ===
+日志类型		:INFO
+操作描述		:根据文章id查询文章评论
+操作用户		:admin
+URL			:/reply/split/9/1
+消耗时间		:7 ms
+请求类型		:post
+IP地址		:0:0:0:0:0:0:0:1
+请求参数		:{articleId=9, currentPage=1}
+请求返回的结果	:{code=200, data={replies=[], allPage=0}, message=成功}
+请求设备信息	:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188
+
+=日志信息==== 2023年08月09日 17时11分42秒 ===
+日志类型		:INFO
+操作描述		:获取文章类别列表
+操作用户		:admin
+URL			:/type/typeList
+消耗时间		:20 ms
+请求类型		:post
+IP地址		:0:0:0:0:0:0:0:1
+请求参数		:null
+请求返回的结果	:{code=200, data=[{typeId=2, typeName=我的日记}, {typeId=3, typeName=我的感悟}, {typeId=4, typeName=我的相册}], message=成功}
+请求设备信息	:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188
+
+=日志信息==== 2023年08月09日 17时11分45秒 ===
+日志类型		:INFO
+操作描述		:根据文章的点击量查询排名前十的文章内容。在每天指定时间查询 redis 中的排行榜数据，然后将其写入本地文件，在之后的时间只读取本地文件数据，在本地文件数据存在的情况下
+操作用户		:admin
+URL			:/article/ranking
+消耗时间		:10 ms
+请求类型		:post
+IP地址		:0:0:0:0:0:0:0:1
+请求参数		:null
+请求返回的结果	:{code=200, data=[{articleContent=<p>北冥有鱼，其名为鲲。鲲之大，不知其几千里也；化而为鸟，其名为鹏。鹏之背，不知其几千里也；怒而飞，其翼若垂天之云。是鸟也，海运则将徙于南冥。南冥者，天池也。《齐谐》者，志怪者也。<br></p>, articleId=9, articleIssueTime=1691049027000, articleTitle=逍遥游, humanId=1, typeId=2}, {articleContent=<p>事实是事实是事实是事实烧死是事实是黑色试试hi实施烧死是事实是事实是是是是是是是</p>, articleId=4, articleIssueTime=1690892581000, articleTitle=是是记, humanId=1, typeId=2}, {articleContent=<p>晋元中，武陵人捕鱼为业。黄河之水天上来。劝君更进一杯酒。</p>, articleId=3, articleIssueTime=1690891522000, articleTitle=小石潭记, humanId=1, typeId=2}, {articleContent=<p>sfdsfsdfasdfa</p>, articleId=2, articleIssueTime=1688091123000, articleTitle=ddsf, humanId=2, typeId=3}, {articleContent=<p>观自在菩萨，行深般若波罗蜜多时，照见五蕴皆空，度一切苦厄。舍利子，色不异空，空不异色，色即是空，空即是色，受想行识，亦复如是。<br></p>, articleId=10, articleIssueTime=1691049588000, articleTitle=心经, humanId=1, typeId=2}, {articleContent=<p>道可道也，非恒道也。名可名也，非恒名也。无名万物之始也，有名万物之母也。故：恒无欲也，以观其眇；恒有欲也，以观其徼。两者同出，异名同谓。玄之又玄，众妙之门。<br></p>, articleId=8, articleIssueTime=1691048972000, articleTitle=道德经, humanId=1, typeId=2}, {articleContent=<p>东临碣石，以观沧海。水何澹澹，山岛竦峙。树木丛生，百草丰茂。秋风萧瑟，洪波涌起。日月之行，若出其中；星汉灿烂，若出其里。幸甚至哉，歌以咏志。<br></p>, articleId=12, articleIssueTime=1691569773000, articleTitle=观沧海, humanId=1, typeId=2}, {articleContent=<p>asasaasas</p>, articleId=11, articleIssueTime=1691052525000, articleTitle=bbbaaaa, humanId=1, typeId=2}], message=成功}
+请求设备信息	:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188
+
+=日志信息==== 2023年08月09日 17时11分45秒 ===
+日志类型		:INFO
+操作描述		:获取文章类别列表
+操作用户		:admin
+URL			:/type/typeList
+消耗时间		:17 ms
+请求类型		:post
+IP地址		:0:0:0:0:0:0:0:1
+请求参数		:null
+请求返回的结果	:{code=200, data=[{typeId=2, typeName=我的日记}, {typeId=3, typeName=我的感悟}, {typeId=4, typeName=我的相册}], message=成功}
+请求设备信息	:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188
+
+=日志信息==== 2023年08月09日 17时11分47秒 ===
+日志类型		:INFO
+操作描述		:查询指定页的内容，显示在指定的页面
+操作用户		:admin
+URL			:/article/articleList/1
+消耗时间		:23 ms
+请求类型		:post
+IP地址		:0:0:0:0:0:0:0:1
+请求参数		:{currentPage=1}
+请求返回的结果	:{code=200, data={articles=[{articleContent=<p>东临碣石，以观沧海。水何澹澹，山岛竦峙。树木丛生，百草丰茂。秋风萧瑟，洪波涌起。日月之行，若出其中；星汉灿烂，若出其里。幸甚至哉，歌以咏志。<br></p>, articleId=12, articleIssueTime=1691569773000, articleTitle=观沧海, human={humanEmail=xiaohong@email.com, humanId=1, humanName=admin, humanNiceName=小怪, humanPassword=123abc}, humanId=0, typeId=2}, {articleContent=<p>asasaasas</p>, articleId=11, articleIssueTime=1691052525000, articleTitle=bbbaaaa, human={$ref=$.result.data.articles[0].human}, humanId=0, typeId=2}, {articleContent=<p>观自在菩萨，行深般若波罗蜜多时，照见五蕴皆空，度一切苦厄。舍利子，色不异空，空不异色，色即是空，空即是色，受想行识，亦复如是。<br></p>, articleId=10, articleIssueTime=1691049588000, articleTitle=心经, human={$ref=$.result.data.articles[0].human}, humanId=0, typeId=2}, {articleContent=<p>北冥有鱼，其名为鲲。鲲之大，不知其几千里也；化而为鸟，其名为鹏。鹏之背，不知其几千里也；怒而飞，其翼若垂天之云。是鸟也，海运则将徙于南冥。南冥者，天池也。《齐谐》者，志怪者也。<br></p>, articleId=9, articleIssueTime=1691049027000, articleTitle=逍遥游, human={$ref=$.result.data.articles[0].human}, humanId=0, typeId=2}, {articleContent=<p>道可道也，非恒道也。名可名也，非恒名也。无名万物之始也，有名万物之母也。故：恒无欲也，以观其眇；恒有欲也，以观其徼。两者同出，异名同谓。玄之又玄，众妙之门。<br></p>, articleId=8, articleIssueTime=1691048972000, articleTitle=道德经, human={$ref=$.result.data.articles[0].human}, humanId=0, typeId=2}, {articleContent=<p>先帝创业未半而中道崩殂，今天下三分，益州疲弊，此诚危急存亡之秋也。然侍卫之臣不懈于内，忠志之士忘身于外者，盖追先帝之殊遇，欲报之于陛下也。诚宜开张圣听，以光先帝遗德，恢弘志士之气，不宜妄自菲薄，引喻失义，以塞忠谏之路也。<br></p>, articleId=7, articleIssueTime=1691048636000, articleTitle=出师表, human={$ref=$.result.data.articles[0].human}, humanId=0, typeId=2}, {articleContent=<p>事实是事实是事实是事实烧死是事实是黑色试试hi实施烧死是事实是事实是是是是是是是</p>, articleId=4, articleIssueTime=1690892581000, articleTitle=是是记, human={$ref=$.result.data.articles[0].human}, humanId=0, typeId=2}, {articleContent=<p>晋元中，武陵人捕鱼为业。黄河之水天上来。劝君更进一杯酒。</p>, articleId=3, articleIssueTime=1690891522000, articleTitle=小石潭记, human={$ref=$.result.data.articles[0].human}, humanId=0, typeId=2}, {articleContent=<p>sfdsfsdfasdfa</p>, articleId=2, articleIssueTime=1688091123000, articleTitle=ddsf, human={humanEmail=xiaojun@email, humanId=2, humanName=xiaojun, humanNiceName=隔壁老王, humanPassword=admin}, humanId=0, typeId=3}], allPage=1}, message=成功}
+请求设备信息	:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188
+
+=日志信息==== 2023年08月09日 17时11分48秒 ===
+日志类型		:INFO
+操作描述		:null
+操作用户		:admin
+URL			:/to/base/navigation
+消耗时间		:20 ms
+请求类型		:get
+IP地址		:0:0:0:0:0:0:0:1
+请求参数		:{path=base, page=navigation}
+请求返回的结果	:base/navigation
+请求设备信息	:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188
+
+=日志信息==== 2023年08月09日 17时11分48秒 ===
+日志类型		:INFO
+操作描述		:获取文章类别列表
+操作用户		:admin
+URL			:/type/typeList
+消耗时间		:9 ms
+请求类型		:post
+IP地址		:0:0:0:0:0:0:0:1
+请求参数		:null
+请求返回的结果	:{code=200, data=[{typeId=2, typeName=我的日记}, {typeId=3, typeName=我的感悟}, {typeId=4, typeName=我的相册}], message=成功}
+请求设备信息	:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188
+
+=日志信息==== 2023年08月09日 17时13分20秒 ===
+日志类型		:INFO
+操作描述		:根据 id 获取文章数据
+操作用户		:admin
+URL			:/article/articleById/11
+消耗时间		:10 ms
+请求类型		:post
+IP地址		:0:0:0:0:0:0:0:1
+请求参数		:{articleId=11}
+请求返回的结果	:{code=200, data={articleContent=<p>asasaasas</p>, articleId=11, articleIssueTime=1691052525000, articleTitle=bbbaaaa, human={humanEmail=xiaohong@email.com, humanId=1, humanName=admin, humanNiceName=小怪, humanPassword=123abc}, humanId=1, type={typeId=2, typeName=我的日记}, typeId=2}, message=成功}
+请求设备信息	:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188
+
+=日志信息==== 2023年08月09日 17时13分20秒 ===
+日志类型		:INFO
+操作描述		:null
+操作用户		:admin
+URL			:/to/base/navigation
+消耗时间		:19 ms
+请求类型		:get
+IP地址		:0:0:0:0:0:0:0:1
+请求参数		:{path=base, page=navigation}
+请求返回的结果	:base/navigation
+请求设备信息	:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188
+
+=日志信息==== 2023年08月09日 17时13分20秒 ===
+日志类型		:INFO
+操作描述		:根据文章id查询文章评论
+操作用户		:admin
+URL			:/reply/split/11/1
+消耗时间		:19 ms
+请求类型		:post
+IP地址		:0:0:0:0:0:0:0:1
+请求参数		:{articleId=11, currentPage=1}
+请求返回的结果	:{code=200, data={replies=[], allPage=0}, message=成功}
+请求设备信息	:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188
+
+=日志信息==== 2023年08月09日 17时13分20秒 ===
+日志类型		:INFO
+操作描述		:获取文章类别列表
+操作用户		:admin
+URL			:/type/typeList
+消耗时间		:14 ms
+请求类型		:post
+IP地址		:0:0:0:0:0:0:0:1
+请求参数		:null
+请求返回的结果	:{code=200, data=[{typeId=2, typeName=我的日记}, {typeId=3, typeName=我的感悟}, {typeId=4, typeName=我的相册}], message=成功}
+请求设备信息	:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188
+
+=日志信息==== 2023年08月09日 17时13分22秒 ===
+日志类型		:INFO
+操作描述		:null
+操作用户		:admin
+URL			:/to/base/navigation
+消耗时间		:13 ms
+请求类型		:get
+IP地址		:0:0:0:0:0:0:0:1
+请求参数		:{path=base, page=navigation}
+请求返回的结果	:base/navigation
+请求设备信息	:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188
+
+=日志信息==== 2023年08月09日 17时13分22秒 ===
+日志类型		:INFO
+操作描述		:获取文章类别列表
+操作用户		:admin
+URL			:/type/typeList
+消耗时间		:13 ms
+请求类型		:post
+IP地址		:0:0:0:0:0:0:0:1
+请求参数		:null
+请求返回的结果	:{code=200, data=[{typeId=2, typeName=我的日记}, {typeId=3, typeName=我的感悟}, {typeId=4, typeName=我的相册}], message=成功}
+请求设备信息	:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188
+
+=日志信息==== 2023年08月09日 17时13分22秒 ===
+日志类型		:INFO
+操作描述		:根据文章id查询文章数据
+操作用户		:admin
+URL			:/issue/updateById/11
+消耗时间		:11 ms
+请求类型		:post
+IP地址		:0:0:0:0:0:0:0:1
+请求参数		:{articleId=11}
+请求返回的结果	:{code=200, data={articleContent=<p>asasaasas</p>, articleId=11, articleIssueTime=1691052525000, articleTitle=bbbaaaa, human={humanEmail=xiaohong@email.com, humanId=1, humanName=admin, humanNiceName=小怪, humanPassword=123abc}, humanId=1, type={typeId=2, typeName=我的日记}, typeId=2}, message=成功}
+请求设备信息	:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188
+
+=日志信息==== 2023年08月09日 17时13分22秒 ===
+日志类型		:INFO
+操作描述		:获取文章类别列表
+操作用户		:admin
+URL			:/type/typeList
+消耗时间		:21 ms
+请求类型		:post
+IP地址		:0:0:0:0:0:0:0:1
+请求参数		:null
+请求返回的结果	:{code=200, data=[{typeId=2, typeName=我的日记}, {typeId=3, typeName=我的感悟}, {typeId=4, typeName=我的相册}], message=成功}
+请求设备信息	:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188
+
+=日志信息==== 2023年08月09日 17时13分49秒 ===
+日志类型		:INFO
+操作描述		:根据 id 修改文章数据
+操作用户		:admin
+URL			:/article/update
+消耗时间		:11 ms
+请求类型		:post
+IP地址		:0:0:0:0:0:0:0:1
+请求参数		:{articleContent=<p>死亡亦是开始</p>, articleId=11, articleTitle=死亡日记, humanId=0, typeId=2}
+请求返回的结果	:{code=200, data=11, message=成功}
+请求设备信息	:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188
+
+=日志信息==== 2023年08月09日 17时13分49秒 ===
+日志类型		:INFO
+操作描述		:根据 id 获取文章数据
+操作用户		:admin
+URL			:/article/articleById/11
+消耗时间		:50 ms
+请求类型		:post
+IP地址		:0:0:0:0:0:0:0:1
+请求参数		:{articleId=11}
+请求返回的结果	:{code=200, data={articleContent=<p>死亡亦是开始</p>, articleId=11, articleIssueTime=1691572429000, articleTitle=死亡日记, human={humanEmail=xiaohong@email.com, humanId=1, humanName=admin, humanNiceName=小怪, humanPassword=123abc}, humanId=1, type={typeId=2, typeName=我的日记}, typeId=2}, message=成功}
+请求设备信息	:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188
+
+=日志信息==== 2023年08月09日 17时13分49秒 ===
+日志类型		:INFO
+操作描述		:null
+操作用户		:admin
+URL			:/to/base/navigation
+消耗时间		:15 ms
+请求类型		:get
+IP地址		:0:0:0:0:0:0:0:1
+请求参数		:{path=base, page=navigation}
+请求返回的结果	:base/navigation
+请求设备信息	:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188
+
+=日志信息==== 2023年08月09日 17时13分49秒 ===
+日志类型		:INFO
+操作描述		:根据文章id查询文章评论
+操作用户		:admin
+URL			:/reply/split/11/1
+消耗时间		:15 ms
+请求类型		:post
+IP地址		:0:0:0:0:0:0:0:1
+请求参数		:{articleId=11, currentPage=1}
+请求返回的结果	:{code=200, data={replies=[], allPage=0}, message=成功}
+请求设备信息	:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188
+
+=日志信息==== 2023年08月09日 17时13分49秒 ===
+日志类型		:INFO
+操作描述		:获取文章类别列表
+操作用户		:admin
+URL			:/type/typeList
+消耗时间		:13 ms
+请求类型		:post
+IP地址		:0:0:0:0:0:0:0:1
+请求参数		:null
+请求返回的结果	:{code=200, data=[{typeId=2, typeName=我的日记}, {typeId=3, typeName=我的感悟}, {typeId=4, typeName=我的相册}], message=成功}
+请求设备信息	:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188
+
+=日志信息==== 2023年08月09日 17时13分53秒 ===
+日志类型		:INFO
+操作描述		:查询指定页的内容，显示在指定的页面
+操作用户		:admin
+URL			:/article/articleList/1
+消耗时间		:12 ms
+请求类型		:post
+IP地址		:0:0:0:0:0:0:0:1
+请求参数		:{currentPage=1}
+请求返回的结果	:{code=200, data={articles=[{articleContent=<p>死亡亦是开始</p>, articleId=11, articleIssueTime=1691572429000, articleTitle=死亡日记, human={humanEmail=xiaohong@email.com, humanId=1, humanName=admin, humanNiceName=小怪, humanPassword=123abc}, humanId=0, typeId=2}, {articleContent=<p>东临碣石，以观沧海。水何澹澹，山岛竦峙。树木丛生，百草丰茂。秋风萧瑟，洪波涌起。日月之行，若出其中；星汉灿烂，若出其里。幸甚至哉，歌以咏志。<br></p>, articleId=12, articleIssueTime=1691569773000, articleTitle=观沧海, human={$ref=$.result.data.articles[0].human}, humanId=0, typeId=2}, {articleContent=<p>观自在菩萨，行深般若波罗蜜多时，照见五蕴皆空，度一切苦厄。舍利子，色不异空，空不异色，色即是空，空即是色，受想行识，亦复如是。<br></p>, articleId=10, articleIssueTime=1691049588000, articleTitle=心经, human={$ref=$.result.data.articles[0].human}, humanId=0, typeId=2}, {articleContent=<p>北冥有鱼，其名为鲲。鲲之大，不知其几千里也；化而为鸟，其名为鹏。鹏之背，不知其几千里也；怒而飞，其翼若垂天之云。是鸟也，海运则将徙于南冥。南冥者，天池也。《齐谐》者，志怪者也。<br></p>, articleId=9, articleIssueTime=1691049027000, articleTitle=逍遥游, human={$ref=$.result.data.articles[0].human}, humanId=0, typeId=2}, {articleContent=<p>道可道也，非恒道也。名可名也，非恒名也。无名万物之始也，有名万物之母也。故：恒无欲也，以观其眇；恒有欲也，以观其徼。两者同出，异名同谓。玄之又玄，众妙之门。<br></p>, articleId=8, articleIssueTime=1691048972000, articleTitle=道德经, human={$ref=$.result.data.articles[0].human}, humanId=0, typeId=2}, {articleContent=<p>先帝创业未半而中道崩殂，今天下三分，益州疲弊，此诚危急存亡之秋也。然侍卫之臣不懈于内，忠志之士忘身于外者，盖追先帝之殊遇，欲报之于陛下也。诚宜开张圣听，以光先帝遗德，恢弘志士之气，不宜妄自菲薄，引喻失义，以塞忠谏之路也。<br></p>, articleId=7, articleIssueTime=1691048636000, articleTitle=出师表, human={$ref=$.result.data.articles[0].human}, humanId=0, typeId=2}, {articleContent=<p>事实是事实是事实是事实烧死是事实是黑色试试hi实施烧死是事实是事实是是是是是是是</p>, articleId=4, articleIssueTime=1690892581000, articleTitle=是是记, human={$ref=$.result.data.articles[0].human}, humanId=0, typeId=2}, {articleContent=<p>晋元中，武陵人捕鱼为业。黄河之水天上来。劝君更进一杯酒。</p>, articleId=3, articleIssueTime=1690891522000, articleTitle=小石潭记, human={$ref=$.result.data.articles[0].human}, humanId=0, typeId=2}, {articleContent=<p>sfdsfsdfasdfa</p>, articleId=2, articleIssueTime=1688091123000, articleTitle=ddsf, human={humanEmail=xiaojun@email, humanId=2, humanName=xiaojun, humanNiceName=隔壁老王, humanPassword=admin}, humanId=0, typeId=3}], allPage=1}, message=成功}
+请求设备信息	:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188
+
+=日志信息==== 2023年08月09日 17时13分53秒 ===
+日志类型		:INFO
+操作描述		:null
+操作用户		:admin
+URL			:/to/base/navigation
+消耗时间		:30 ms
+请求类型		:get
+IP地址		:0:0:0:0:0:0:0:1
+请求参数		:{path=base, page=navigation}
+请求返回的结果	:base/navigation
+请求设备信息	:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188
+
+=日志信息==== 2023年08月09日 17时13分53秒 ===
+日志类型		:INFO
+操作描述		:获取文章类别列表
+操作用户		:admin
+URL			:/type/typeList
+消耗时间		:8 ms
+请求类型		:post
+IP地址		:0:0:0:0:0:0:0:1
+请求参数		:null
+请求返回的结果	:{code=200, data=[{typeId=2, typeName=我的日记}, {typeId=3, typeName=我的感悟}, {typeId=4, typeName=我的相册}], message=成功}
+请求设备信息	:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188
+
+=日志信息==== 2023年08月09日 17时17分56秒 ===
+日志类型		:INFO
+操作描述		:查询指定页的内容，显示在指定的页面
+操作用户		:admin
+URL			:/article/articleList/1
+消耗时间		:9 ms
+请求类型		:post
+IP地址		:0:0:0:0:0:0:0:1
+请求参数		:{currentPage=1}
+请求返回的结果	:{code=200, data={articles=[{articleContent=<p>死亡亦是开始</p>, articleId=11, articleIssueTime=1691572429000, articleTitle=死亡日记, human={humanEmail=xiaohong@email.com, humanId=1, humanName=admin, humanNiceName=小怪, humanPassword=123abc}, humanId=0, typeId=2}, {articleContent=<p>东临碣石，以观沧海。水何澹澹，山岛竦峙。树木丛生，百草丰茂。秋风萧瑟，洪波涌起。日月之行，若出其中；星汉灿烂，若出其里。幸甚至哉，歌以咏志。<br></p>, articleId=12, articleIssueTime=1691569773000, articleTitle=观沧海, human={$ref=$.result.data.articles[0].human}, humanId=0, typeId=2}, {articleContent=<p>观自在菩萨，行深般若波罗蜜多时，照见五蕴皆空，度一切苦厄。舍利子，色不异空，空不异色，色即是空，空即是色，受想行识，亦复如是。<br></p>, articleId=10, articleIssueTime=1691049588000, articleTitle=心经, human={$ref=$.result.data.articles[0].human}, humanId=0, typeId=2}, {articleContent=<p>北冥有鱼，其名为鲲。鲲之大，不知其几千里也；化而为鸟，其名为鹏。鹏之背，不知其几千里也；怒而飞，其翼若垂天之云。是鸟也，海运则将徙于南冥。南冥者，天池也。《齐谐》者，志怪者也。<br></p>, articleId=9, articleIssueTime=1691049027000, articleTitle=逍遥游, human={$ref=$.result.data.articles[0].human}, humanId=0, typeId=2}, {articleContent=<p>道可道也，非恒道也。名可名也，非恒名也。无名万物之始也，有名万物之母也。故：恒无欲也，以观其眇；恒有欲也，以观其徼。两者同出，异名同谓。玄之又玄，众妙之门。<br></p>, articleId=8, articleIssueTime=1691048972000, articleTitle=道德经, human={$ref=$.result.data.articles[0].human}, humanId=0, typeId=2}, {articleContent=<p>先帝创业未半而中道崩殂，今天下三分，益州疲弊，此诚危急存亡之秋也。然侍卫之臣不懈于内，忠志之士忘身于外者，盖追先帝之殊遇，欲报之于陛下也。诚宜开张圣听，以光先帝遗德，恢弘志士之气，不宜妄自菲薄，引喻失义，以塞忠谏之路也。<br></p>, articleId=7, articleIssueTime=1691048636000, articleTitle=出师表, human={$ref=$.result.data.articles[0].human}, humanId=0, typeId=2}, {articleContent=<p>事实是事实是事实是事实烧死是事实是黑色试试hi实施烧死是事实是事实是是是是是是是</p>, articleId=4, articleIssueTime=1690892581000, articleTitle=是是记, human={$ref=$.result.data.articles[0].human}, humanId=0, typeId=2}, {articleContent=<p>晋元中，武陵人捕鱼为业。黄河之水天上来。劝君更进一杯酒。</p>, articleId=3, articleIssueTime=1690891522000, articleTitle=小石潭记, human={$ref=$.result.data.articles[0].human}, humanId=0, typeId=2}, {articleContent=<p>sfdsfsdfasdfa</p>, articleId=2, articleIssueTime=1688091123000, articleTitle=ddsf, human={humanEmail=xiaojun@email, humanId=2, humanName=xiaojun, humanNiceName=隔壁老王, humanPassword=admin}, humanId=0, typeId=3}], allPage=1}, message=成功}
+请求设备信息	:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188
+
+=日志信息==== 2023年08月09日 17时17分56秒 ===
+日志类型		:INFO
+操作描述		:null
+操作用户		:admin
+URL			:/to/base/navigation
+消耗时间		:27 ms
+请求类型		:get
+IP地址		:0:0:0:0:0:0:0:1
+请求参数		:{path=base, page=navigation}
+请求返回的结果	:base/navigation
+请求设备信息	:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188
+
+=日志信息==== 2023年08月09日 17时17分56秒 ===
+日志类型		:INFO
+操作描述		:获取文章类别列表
+操作用户		:admin
+URL			:/type/typeList
+消耗时间		:6 ms
+请求类型		:post
+IP地址		:0:0:0:0:0:0:0:1
+请求参数		:null
+请求返回的结果	:{code=200, data=[{typeId=2, typeName=我的日记}, {typeId=3, typeName=我的感悟}, {typeId=4, typeName=我的相册}], message=成功}
+请求设备信息	:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188
+
+=日志信息==== 2023年08月09日 17时22分11秒 ===
+日志类型		:INFO
+操作描述		:查询指定页的内容，显示在指定的页面
+操作用户		:admin
+URL			:/article/articleList/1
+消耗时间		:10 ms
+请求类型		:post
+IP地址		:0:0:0:0:0:0:0:1
+请求参数		:{currentPage=1}
+请求返回的结果	:{code=200, data={articles=[{articleContent=<p>死亡亦是开始</p>, articleId=11, articleIssueTime=1691572429000, articleTitle=死亡日记, human={humanEmail=xiaohong@email.com, humanId=1, humanName=admin, humanNiceName=小怪, humanPassword=123abc}, humanId=0, typeId=2}, {articleContent=<p>东临碣石，以观沧海。水何澹澹，山岛竦峙。树木丛生，百草丰茂。秋风萧瑟，洪波涌起。日月之行，若出其中；星汉灿烂，若出其里。幸甚至哉，歌以咏志。<br></p>, articleId=12, articleIssueTime=1691569773000, articleTitle=观沧海, human={$ref=$.result.data.articles[0].human}, humanId=0, typeId=2}, {articleContent=<p>观自在菩萨，行深般若波罗蜜多时，照见五蕴皆空，度一切苦厄。舍利子，色不异空，空不异色，色即是空，空即是色，受想行识，亦复如是。<br></p>, articleId=10, articleIssueTime=1691049588000, articleTitle=心经, human={$ref=$.result.data.articles[0].human}, humanId=0, typeId=2}, {articleContent=<p>北冥有鱼，其名为鲲。鲲之大，不知其几千里也；化而为鸟，其名为鹏。鹏之背，不知其几千里也；怒而飞，其翼若垂天之云。是鸟也，海运则将徙于南冥。南冥者，天池也。《齐谐》者，志怪者也。<br></p>, articleId=9, articleIssueTime=1691049027000, articleTitle=逍遥游, human={$ref=$.result.data.articles[0].human}, humanId=0, typeId=2}, {articleContent=<p>道可道也，非恒道也。名可名也，非恒名也。无名万物之始也，有名万物之母也。故：恒无欲也，以观其眇；恒有欲也，以观其徼。两者同出，异名同谓。玄之又玄，众妙之门。<br></p>, articleId=8, articleIssueTime=1691048972000, articleTitle=道德经, human={$ref=$.result.data.articles[0].human}, humanId=0, typeId=2}, {articleContent=<p>先帝创业未半而中道崩殂，今天下三分，益州疲弊，此诚危急存亡之秋也。然侍卫之臣不懈于内，忠志之士忘身于外者，盖追先帝之殊遇，欲报之于陛下也。诚宜开张圣听，以光先帝遗德，恢弘志士之气，不宜妄自菲薄，引喻失义，以塞忠谏之路也。<br></p>, articleId=7, articleIssueTime=1691048636000, articleTitle=出师表, human={$ref=$.result.data.articles[0].human}, humanId=0, typeId=2}, {articleContent=<p>事实是事实是事实是事实烧死是事实是黑色试试hi实施烧死是事实是事实是是是是是是是</p>, articleId=4, articleIssueTime=1690892581000, articleTitle=是是记, human={$ref=$.result.data.articles[0].human}, humanId=0, typeId=2}, {articleContent=<p>晋元中，武陵人捕鱼为业。黄河之水天上来。劝君更进一杯酒。</p>, articleId=3, articleIssueTime=1690891522000, articleTitle=小石潭记, human={$ref=$.result.data.articles[0].human}, humanId=0, typeId=2}, {articleContent=<p>sfdsfsdfasdfa</p>, articleId=2, articleIssueTime=1688091123000, articleTitle=ddsf, human={humanEmail=xiaojun@email, humanId=2, humanName=xiaojun, humanNiceName=隔壁老王, humanPassword=admin}, humanId=0, typeId=3}], allPage=1}, message=成功}
+请求设备信息	:PostmanRuntime/7.29.2
+
+=日志信息==== 2023年08月09日 17时23分42秒 ===
+日志类型		:INFO
+操作描述		:查询指定页的内容，显示在指定的页面
+操作用户		:admin
+URL			:/article/articleList/1
+消耗时间		:6 ms
+请求类型		:post
+IP地址		:0:0:0:0:0:0:0:1
+请求参数		:{currentPage=1}
+请求返回的结果	:{code=200, data={articles=[{articleContent=<p>死亡亦是开始</p>, articleId=11, articleIssueTime=1691572429000, articleTitle=死亡日记, human={humanEmail=xiaohong@email.com, humanId=1, humanName=admin, humanNiceName=小怪, humanPassword=123abc}, humanId=0, typeId=2}, {articleContent=<p>东临碣石，以观沧海。水何澹澹，山岛竦峙。树木丛生，百草丰茂。秋风萧瑟，洪波涌起。日月之行，若出其中；星汉灿烂，若出其里。幸甚至哉，歌以咏志。<br></p>, articleId=12, articleIssueTime=1691569773000, articleTitle=观沧海, human={$ref=$.result.data.articles[0].human}, humanId=0, typeId=2}, {articleContent=<p>观自在菩萨，行深般若波罗蜜多时，照见五蕴皆空，度一切苦厄。舍利子，色不异空，空不异色，色即是空，空即是色，受想行识，亦复如是。<br></p>, articleId=10, articleIssueTime=1691049588000, articleTitle=心经, human={$ref=$.result.data.articles[0].human}, humanId=0, typeId=2}, {articleContent=<p>北冥有鱼，其名为鲲。鲲之大，不知其几千里也；化而为鸟，其名为鹏。鹏之背，不知其几千里也；怒而飞，其翼若垂天之云。是鸟也，海运则将徙于南冥。南冥者，天池也。《齐谐》者，志怪者也。<br></p>, articleId=9, articleIssueTime=1691049027000, articleTitle=逍遥游, human={$ref=$.result.data.articles[0].human}, humanId=0, typeId=2}, {articleContent=<p>道可道也，非恒道也。名可名也，非恒名也。无名万物之始也，有名万物之母也。故：恒无欲也，以观其眇；恒有欲也，以观其徼。两者同出，异名同谓。玄之又玄，众妙之门。<br></p>, articleId=8, articleIssueTime=1691048972000, articleTitle=道德经, human={$ref=$.result.data.articles[0].human}, humanId=0, typeId=2}, {articleContent=<p>先帝创业未半而中道崩殂，今天下三分，益州疲弊，此诚危急存亡之秋也。然侍卫之臣不懈于内，忠志之士忘身于外者，盖追先帝之殊遇，欲报之于陛下也。诚宜开张圣听，以光先帝遗德，恢弘志士之气，不宜妄自菲薄，引喻失义，以塞忠谏之路也。<br></p>, articleId=7, articleIssueTime=1691048636000, articleTitle=出师表, human={$ref=$.result.data.articles[0].human}, humanId=0, typeId=2}, {articleContent=<p>事实是事实是事实是事实烧死是事实是黑色试试hi实施烧死是事实是事实是是是是是是是</p>, articleId=4, articleIssueTime=1690892581000, articleTitle=是是记, human={$ref=$.result.data.articles[0].human}, humanId=0, typeId=2}, {articleContent=<p>晋元中，武陵人捕鱼为业。黄河之水天上来。劝君更进一杯酒。</p>, articleId=3, articleIssueTime=1690891522000, articleTitle=小石潭记, human={$ref=$.result.data.articles[0].human}, humanId=0, typeId=2}, {articleContent=<p>sfdsfsdfasdfa</p>, articleId=2, articleIssueTime=1688091123000, articleTitle=ddsf, human={humanEmail=xiaojun@email, humanId=2, humanName=xiaojun, humanNiceName=隔壁老王, humanPassword=admin}, humanId=0, typeId=3}], allPage=1}, message=成功}
+请求设备信息	:PostmanRuntime/7.29.2
+
+=日志信息==== 2023年08月09日 17时27分48秒 ===
+日志类型		:INFO
+操作描述		:用户登录服务
+操作用户		:admin
+URL			:/login
+消耗时间		:5 ms
+请求类型		:post
+IP地址		:0:0:0:0:0:0:0:1
+请求参数		:{humanId=0, humanName=admin, humanPassword=123abc}
+请求返回的结果	:{code=200, data={humanEmail=xiaohong@email.com, humanId=1, humanName=admin, humanNiceName=小怪, humanPassword=123abc}, message=登录成功}
+请求设备信息	:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188
+
+=日志信息==== 2023年08月09日 17时28分04秒 ===
+日志类型		:INFO
+操作描述		:查询指定页的内容，显示在指定的页面
+操作用户		:admin
+URL			:/article/articleList/1
+消耗时间		:15725 ms
+请求类型		:post
+IP地址		:0:0:0:0:0:0:0:1
+请求参数		:{currentPage=1}
+请求返回的结果	:{code=200, data={articles=[{articleContent=<p>死亡亦是开始</p>, articleId=11, articleIssueTime=1691572429000, articleTitle=死亡日记, human={humanEmail=xiaohong@email.com, humanId=1, humanName=admin, humanNiceName=小怪, humanPassword=123abc}, humanId=0, typeId=2}, {articleContent=<p>东临碣石，以观沧海。水何澹澹，山岛竦峙。树木丛生，百草丰茂。秋风萧瑟，洪波涌起。日月之行，若出其中；星汉灿烂，若出其里。幸甚至哉，歌以咏志。<br></p>, articleId=12, articleIssueTime=1691569773000, articleTitle=观沧海, human={$ref=$.result.data.articles[0].human}, humanId=0, typeId=2}, {articleContent=<p>观自在菩萨，行深般若波罗蜜多时，照见五蕴皆空，度一切苦厄。舍利子，色不异空，空不异色，色即是空，空即是色，受想行识，亦复如是。<br></p>, articleId=10, articleIssueTime=1691049588000, articleTitle=心经, human={$ref=$.result.data.articles[0].human}, humanId=0, typeId=2}, {articleContent=<p>北冥有鱼，其名为鲲。鲲之大，不知其几千里也；化而为鸟，其名为鹏。鹏之背，不知其几千里也；怒而飞，其翼若垂天之云。是鸟也，海运则将徙于南冥。南冥者，天池也。《齐谐》者，志怪者也。<br></p>, articleId=9, articleIssueTime=1691049027000, articleTitle=逍遥游, human={$ref=$.result.data.articles[0].human}, humanId=0, typeId=2}, {articleContent=<p>道可道也，非恒道也。名可名也，非恒名也。无名万物之始也，有名万物之母也。故：恒无欲也，以观其眇；恒有欲也，以观其徼。两者同出，异名同谓。玄之又玄，众妙之门。<br></p>, articleId=8, articleIssueTime=1691048972000, articleTitle=道德经, human={$ref=$.result.data.articles[0].human}, humanId=0, typeId=2}, {articleContent=<p>先帝创业未半而中道崩殂，今天下三分，益州疲弊，此诚危急存亡之秋也。然侍卫之臣不懈于内，忠志之士忘身于外者，盖追先帝之殊遇，欲报之于陛下也。诚宜开张圣听，以光先帝遗德，恢弘志士之气，不宜妄自菲薄，引喻失义，以塞忠谏之路也。<br></p>, articleId=7, articleIssueTime=1691048636000, articleTitle=出师表, human={$ref=$.result.data.articles[0].human}, humanId=0, typeId=2}, {articleContent=<p>事实是事实是事实是事实烧死是事实是黑色试试hi实施烧死是事实是事实是是是是是是是</p>, articleId=4, articleIssueTime=1690892581000, articleTitle=是是记, human={$ref=$.result.data.articles[0].human}, humanId=0, typeId=2}, {articleContent=<p>晋元中，武陵人捕鱼为业。黄河之水天上来。劝君更进一杯酒。</p>, articleId=3, articleIssueTime=1690891522000, articleTitle=小石潭记, human={$ref=$.result.data.articles[0].human}, humanId=0, typeId=2}, {articleContent=<p>sfdsfsdfasdfa</p>, articleId=2, articleIssueTime=1688091123000, articleTitle=ddsf, human={humanEmail=xiaojun@email, humanId=2, humanName=xiaojun, humanNiceName=隔壁老王, humanPassword=admin}, humanId=0, typeId=3}], allPage=1}, message=成功}
+请求设备信息	:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188
+
+=日志信息==== 2023年08月09日 17时28分07秒 ===
+日志类型		:INFO
+操作描述		:null
+操作用户		:admin
+URL			:/to/base/navigation
+消耗时间		:3320 ms
+请求类型		:get
+IP地址		:0:0:0:0:0:0:0:1
+请求参数		:{path=base, page=navigation}
+请求返回的结果	:base/navigation
+请求设备信息	:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188
+
+=日志信息==== 2023年08月09日 17时28分13秒 ===
+日志类型		:INFO
+操作描述		:获取文章类别列表
+操作用户		:admin
+URL			:/type/typeList
+消耗时间		:5436 ms
+请求类型		:post
+IP地址		:0:0:0:0:0:0:0:1
+请求参数		:null
+请求返回的结果	:{code=200, data=[{typeId=2, typeName=我的日记}, {typeId=3, typeName=我的感悟}, {typeId=4, typeName=我的相册}], message=成功}
+请求设备信息	:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188
+
+=日志信息==== 2023年08月09日 17时28分32秒 ===
+日志类型		:INFO
+操作描述		:查询指定页的内容，显示在指定的页面
+操作用户		:admin
+URL			:/article/articleList/1
+消耗时间		:7072 ms
+请求类型		:post
+IP地址		:0:0:0:0:0:0:0:1
+请求参数		:{currentPage=1}
+请求返回的结果	:{code=200, data={articles=[{articleContent=<p>死亡亦是开始</p>, articleId=11, articleIssueTime=1691572429000, articleTitle=死亡日记, human={humanEmail=xiaohong@email.com, humanId=1, humanName=admin, humanNiceName=小怪, humanPassword=123abc}, humanId=0, typeId=2}, {articleContent=<p>东临碣石，以观沧海。水何澹澹，山岛竦峙。树木丛生，百草丰茂。秋风萧瑟，洪波涌起。日月之行，若出其中；星汉灿烂，若出其里。幸甚至哉，歌以咏志。<br></p>, articleId=12, articleIssueTime=1691569773000, articleTitle=观沧海, human={$ref=$.result.data.articles[0].human}, humanId=0, typeId=2}, {articleContent=<p>观自在菩萨，行深般若波罗蜜多时，照见五蕴皆空，度一切苦厄。舍利子，色不异空，空不异色，色即是空，空即是色，受想行识，亦复如是。<br></p>, articleId=10, articleIssueTime=1691049588000, articleTitle=心经, human={$ref=$.result.data.articles[0].human}, humanId=0, typeId=2}, {articleContent=<p>北冥有鱼，其名为鲲。鲲之大，不知其几千里也；化而为鸟，其名为鹏。鹏之背，不知其几千里也；怒而飞，其翼若垂天之云。是鸟也，海运则将徙于南冥。南冥者，天池也。《齐谐》者，志怪者也。<br></p>, articleId=9, articleIssueTime=1691049027000, articleTitle=逍遥游, human={$ref=$.result.data.articles[0].human}, humanId=0, typeId=2}, {articleContent=<p>道可道也，非恒道也。名可名也，非恒名也。无名万物之始也，有名万物之母也。故：恒无欲也，以观其眇；恒有欲也，以观其徼。两者同出，异名同谓。玄之又玄，众妙之门。<br></p>, articleId=8, articleIssueTime=1691048972000, articleTitle=道德经, human={$ref=$.result.data.articles[0].human}, humanId=0, typeId=2}, {articleContent=<p>先帝创业未半而中道崩殂，今天下三分，益州疲弊，此诚危急存亡之秋也。然侍卫之臣不懈于内，忠志之士忘身于外者，盖追先帝之殊遇，欲报之于陛下也。诚宜开张圣听，以光先帝遗德，恢弘志士之气，不宜妄自菲薄，引喻失义，以塞忠谏之路也。<br></p>, articleId=7, articleIssueTime=1691048636000, articleTitle=出师表, human={$ref=$.result.data.articles[0].human}, humanId=0, typeId=2}, {articleContent=<p>事实是事实是事实是事实烧死是事实是黑色试试hi实施烧死是事实是事实是是是是是是是</p>, articleId=4, articleIssueTime=1690892581000, articleTitle=是是记, human={$ref=$.result.data.articles[0].human}, humanId=0, typeId=2}, {articleContent=<p>晋元中，武陵人捕鱼为业。黄河之水天上来。劝君更进一杯酒。</p>, articleId=3, articleIssueTime=1690891522000, articleTitle=小石潭记, human={$ref=$.result.data.articles[0].human}, humanId=0, typeId=2}, {articleContent=<p>sfdsfsdfasdfa</p>, articleId=2, articleIssueTime=1688091123000, articleTitle=ddsf, human={humanEmail=xiaojun@email, humanId=2, humanName=xiaojun, humanNiceName=隔壁老王, humanPassword=admin}, humanId=0, typeId=3}], allPage=1}, message=成功}
+请求设备信息	:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188
+
+=日志信息==== 2023年08月09日 17时30分18秒 ===
+日志类型		:INFO
+操作描述		:null
+操作用户		:admin
+URL			:/to/base/navigation
+消耗时间		:106093 ms
+请求类型		:get
+IP地址		:0:0:0:0:0:0:0:1
+请求参数		:{path=base, page=navigation}
+请求返回的结果	:base/navigation
+请求设备信息	:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188
+
+=日志信息==== 2023年08月09日 17时30分27秒 ===
+日志类型		:INFO
+操作描述		:获取文章类别列表
+操作用户		:admin
+URL			:/type/typeList
+消耗时间		:8213 ms
+请求类型		:post
+IP地址		:0:0:0:0:0:0:0:1
+请求参数		:null
+请求返回的结果	:{code=200, data=[{typeId=2, typeName=我的日记}, {typeId=3, typeName=我的感悟}, {typeId=4, typeName=我的相册}], message=成功}
+请求设备信息	:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188
+
+=日志信息==== 2023年08月09日 19时07分43秒 ===
+日志类型		:INFO
+操作描述		:查询指定页的内容，显示在指定的页面
+操作用户		:admin
+URL			:/article/articleList/1
+消耗时间		:5 ms
+请求类型		:post
+IP地址		:0:0:0:0:0:0:0:1
+请求参数		:{currentPage=1}
+请求返回的结果	:{code=200, message=成功, data={articles=[{articleId=11, articleTitle=死亡日记, articleContent=<p>死亡亦是开始</p>, articleIssueTime=1691572429000, humanId=0, human={humanId=1, humanName=admin, humanPassword=123abc, humanEmail=xiaohong@email.com, humanNiceName=小怪, humanDescribe=null}, typeId=2, type=null, result=null}, {articleId=12, articleTitle=观沧海, articleContent=<p>东临碣石，以观沧海。水何澹澹，山岛竦峙。树木丛生，百草丰茂。秋风萧瑟，洪波涌起。日月之行，若出其中；星汉灿烂，若出其里。幸甚至哉，歌以咏志。<br></p>, articleIssueTime=1691569773000, humanId=0, human={humanId=1, humanName=admin, humanPassword=123abc, humanEmail=xiaohong@email.com, humanNiceName=小怪, humanDescribe=null}, typeId=2, type=null, result=null}, {articleId=10, articleTitle=心经, articleContent=<p>观自在菩萨，行深般若波罗蜜多时，照见五蕴皆空，度一切苦厄。舍利子，色不异空，空不异色，色即是空，空即是色，受想行识，亦复如是。<br></p>, articleIssueTime=1691049588000, humanId=0, human={humanId=1, humanName=admin, humanPassword=123abc, humanEmail=xiaohong@email.com, humanNiceName=小怪, humanDescribe=null}, typeId=2, type=null, result=null}, {articleId=9, articleTitle=逍遥游, articleContent=<p>北冥有鱼，其名为鲲。鲲之大，不知其几千里也；化而为鸟，其名为鹏。鹏之背，不知其几千里也；怒而飞，其翼若垂天之云。是鸟也，海运则将徙于南冥。南冥者，天池也。《齐谐》者，志怪者也。<br></p>, articleIssueTime=1691049027000, humanId=0, human={humanId=1, humanName=admin, humanPassword=123abc, humanEmail=xiaohong@email.com, humanNiceName=小怪, humanDescribe=null}, typeId=2, type=null, result=null}, {articleId=8, articleTitle=道德经, articleContent=<p>道可道也，非恒道也。名可名也，非恒名也。无名万物之始也，有名万物之母也。故：恒无欲也，以观其眇；恒有欲也，以观其徼。两者同出，异名同谓。玄之又玄，众妙之门。<br></p>, articleIssueTime=1691048972000, humanId=0, human={humanId=1, humanName=admin, humanPassword=123abc, humanEmail=xiaohong@email.com, humanNiceName=小怪, humanDescribe=null}, typeId=2, type=null, result=null}, {articleId=7, articleTitle=出师表, articleContent=<p>先帝创业未半而中道崩殂，今天下三分，益州疲弊，此诚危急存亡之秋也。然侍卫之臣不懈于内，忠志之士忘身于外者，盖追先帝之殊遇，欲报之于陛下也。诚宜开张圣听，以光先帝遗德，恢弘志士之气，不宜妄自菲薄，引喻失义，以塞忠谏之路也。<br></p>, articleIssueTime=1691048636000, humanId=0, human={humanId=1, humanName=admin, humanPassword=123abc, humanEmail=xiaohong@email.com, humanNiceName=小怪, humanDescribe=null}, typeId=2, type=null, result=null}, {articleId=4, articleTitle=是是记, articleContent=<p>事实是事实是事实是事实烧死是事实是黑色试试hi实施烧死是事实是事实是是是是是是是</p>, articleIssueTime=1690892581000, humanId=0, human={humanId=1, humanName=admin, humanPassword=123abc, humanEmail=xiaohong@email.com, humanNiceName=小怪, humanDescribe=null}, typeId=2, type=null, result=null}, {articleId=3, articleTitle=小石潭记, articleContent=<p>晋元中，武陵人捕鱼为业。黄河之水天上来。劝君更进一杯酒。</p>, articleIssueTime=1690891522000, humanId=0, human={humanId=1, humanName=admin, humanPassword=123abc, humanEmail=xiaohong@email.com, humanNiceName=小怪, humanDescribe=null}, typeId=2, type=null, result=null}, {articleId=2, articleTitle=ddsf, articleContent=<p>sfdsfsdfasdfa</p>, articleIssueTime=1688091123000, humanId=0, human={humanId=2, humanName=xiaojun, humanPassword=admin, humanEmail=xiaojun@email, humanNiceName=隔壁老王, humanDescribe=null}, typeId=3, type=null, result=null}], allPage=1}}
+请求设备信息	:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188
+
+=日志信息==== 2023年08月09日 19时07分44秒 ===
+日志类型		:INFO
+操作描述		:null
+操作用户		:admin
+URL			:/to/base/navigation
+消耗时间		:863 ms
+请求类型		:get
+IP地址		:0:0:0:0:0:0:0:1
+请求参数		:{path=base, page=navigation}
+请求返回的结果	:base/navigation
+请求设备信息	:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188
+
+=日志信息==== 2023年08月09日 19时07分45秒 ===
+日志类型		:INFO
+操作描述		:获取文章类别列表
+操作用户		:admin
+URL			:/type/typeList
+消耗时间		:21 ms
+请求类型		:post
+IP地址		:0:0:0:0:0:0:0:1
+请求参数		:null
+请求返回的结果	:{code=200, message=成功, data=[{typeId=2, typeName=我的日记}, {typeId=3, typeName=我的感悟}, {typeId=4, typeName=我的相册}]}
+请求设备信息	:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188
+
+=日志信息==== 2023年08月09日 19时08分03秒 ===
+日志类型		:INFO
+操作描述		:根据 id 获取文章数据
+操作用户		:admin
+URL			:/article/articleById/11
+消耗时间		:24 ms
+请求类型		:post
+IP地址		:0:0:0:0:0:0:0:1
+请求参数		:{articleId=11}
+请求返回的结果	:{code=200, message=成功, data={articleId=11, articleTitle=死亡日记, articleContent=<p>死亡亦是开始</p>, articleIssueTime=1691572429000, humanId=1, human={humanId=1, humanName=admin, humanPassword=123abc, humanEmail=xiaohong@email.com, humanNiceName=小怪, humanDescribe=null}, typeId=2, type={typeId=2, typeName=我的日记}, result=null}}
+请求设备信息	:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188
+
+=日志信息==== 2023年08月09日 19时08分03秒 ===
+日志类型		:INFO
+操作描述		:null
+操作用户		:admin
+URL			:/to/base/navigation
+消耗时间		:18 ms
+请求类型		:get
+IP地址		:0:0:0:0:0:0:0:1
+请求参数		:{path=base, page=navigation}
+请求返回的结果	:base/navigation
+请求设备信息	:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188
+
+=日志信息==== 2023年08月09日 19时08分03秒 ===
+日志类型		:INFO
+操作描述		:根据文章id查询文章评论
+操作用户		:admin
+URL			:/reply/split/11/1
+消耗时间		:9 ms
+请求类型		:post
+IP地址		:0:0:0:0:0:0:0:1
+请求参数		:{articleId=11, currentPage=1}
+请求返回的结果	:{code=200, message=成功, data={replies=[], allPage=0}}
+请求设备信息	:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188
+
+=日志信息==== 2023年08月09日 19时08分03秒 ===
+日志类型		:INFO
+操作描述		:获取文章类别列表
+操作用户		:admin
+URL			:/type/typeList
+消耗时间		:23 ms
+请求类型		:post
+IP地址		:0:0:0:0:0:0:0:1
+请求参数		:null
+请求返回的结果	:{code=200, message=成功, data=[{typeId=2, typeName=我的日记}, {typeId=3, typeName=我的感悟}, {typeId=4, typeName=我的相册}]}
+请求设备信息	:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188
+
+=日志信息==== 2023年08月09日 19时08分24秒 ===
+日志类型		:INFO
+操作描述		:用户登录服务
+操作用户		:admin
+URL			:/login
+消耗时间		:10 ms
+请求类型		:post
+IP地址		:0:0:0:0:0:0:0:1
+请求参数		:{humanId=0, humanName=admin, humanPassword=123abc, humanEmail=null, humanNiceName=null, humanDescribe=null}
+请求返回的结果	:{code=200, message=登录成功, data={humanId=1, humanName=admin, humanPassword=123abc, humanEmail=xiaohong@email.com, humanNiceName=小怪, humanDescribe=null}}
+请求设备信息	:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188
+
+=日志信息==== 2023年08月09日 19时08分24秒 ===
+日志类型		:INFO
+操作描述		:查询指定页的内容，显示在指定的页面
+操作用户		:admin
+URL			:/article/articleList/1
+消耗时间		:14 ms
+请求类型		:post
+IP地址		:0:0:0:0:0:0:0:1
+请求参数		:{currentPage=1}
+请求返回的结果	:{code=200, message=成功, data={articles=[{articleId=11, articleTitle=死亡日记, articleContent=<p>死亡亦是开始</p>, articleIssueTime=1691572429000, humanId=0, human={humanId=1, humanName=admin, humanPassword=123abc, humanEmail=xiaohong@email.com, humanNiceName=小怪, humanDescribe=null}, typeId=2, type=null, result=null}, {articleId=12, articleTitle=观沧海, articleContent=<p>东临碣石，以观沧海。水何澹澹，山岛竦峙。树木丛生，百草丰茂。秋风萧瑟，洪波涌起。日月之行，若出其中；星汉灿烂，若出其里。幸甚至哉，歌以咏志。<br></p>, articleIssueTime=1691569773000, humanId=0, human={humanId=1, humanName=admin, humanPassword=123abc, humanEmail=xiaohong@email.com, humanNiceName=小怪, humanDescribe=null}, typeId=2, type=null, result=null}, {articleId=10, articleTitle=心经, articleContent=<p>观自在菩萨，行深般若波罗蜜多时，照见五蕴皆空，度一切苦厄。舍利子，色不异空，空不异色，色即是空，空即是色，受想行识，亦复如是。<br></p>, articleIssueTime=1691049588000, humanId=0, human={humanId=1, humanName=admin, humanPassword=123abc, humanEmail=xiaohong@email.com, humanNiceName=小怪, humanDescribe=null}, typeId=2, type=null, result=null}, {articleId=9, articleTitle=逍遥游, articleContent=<p>北冥有鱼，其名为鲲。鲲之大，不知其几千里也；化而为鸟，其名为鹏。鹏之背，不知其几千里也；怒而飞，其翼若垂天之云。是鸟也，海运则将徙于南冥。南冥者，天池也。《齐谐》者，志怪者也。<br></p>, articleIssueTime=1691049027000, humanId=0, human={humanId=1, humanName=admin, humanPassword=123abc, humanEmail=xiaohong@email.com, humanNiceName=小怪, humanDescribe=null}, typeId=2, type=null, result=null}, {articleId=8, articleTitle=道德经, articleContent=<p>道可道也，非恒道也。名可名也，非恒名也。无名万物之始也，有名万物之母也。故：恒无欲也，以观其眇；恒有欲也，以观其徼。两者同出，异名同谓。玄之又玄，众妙之门。<br></p>, articleIssueTime=1691048972000, humanId=0, human={humanId=1, humanName=admin, humanPassword=123abc, humanEmail=xiaohong@email.com, humanNiceName=小怪, humanDescribe=null}, typeId=2, type=null, result=null}, {articleId=7, articleTitle=出师表, articleContent=<p>先帝创业未半而中道崩殂，今天下三分，益州疲弊，此诚危急存亡之秋也。然侍卫之臣不懈于内，忠志之士忘身于外者，盖追先帝之殊遇，欲报之于陛下也。诚宜开张圣听，以光先帝遗德，恢弘志士之气，不宜妄自菲薄，引喻失义，以塞忠谏之路也。<br></p>, articleIssueTime=1691048636000, humanId=0, human={humanId=1, humanName=admin, humanPassword=123abc, humanEmail=xiaohong@email.com, humanNiceName=小怪, humanDescribe=null}, typeId=2, type=null, result=null}, {articleId=4, articleTitle=是是记, articleContent=<p>事实是事实是事实是事实烧死是事实是黑色试试hi实施烧死是事实是事实是是是是是是是</p>, articleIssueTime=1690892581000, humanId=0, human={humanId=1, humanName=admin, humanPassword=123abc, humanEmail=xiaohong@email.com, humanNiceName=小怪, humanDescribe=null}, typeId=2, type=null, result=null}, {articleId=3, articleTitle=小石潭记, articleContent=<p>晋元中，武陵人捕鱼为业。黄河之水天上来。劝君更进一杯酒。</p>, articleIssueTime=1690891522000, humanId=0, human={humanId=1, humanName=admin, humanPassword=123abc, humanEmail=xiaohong@email.com, humanNiceName=小怪, humanDescribe=null}, typeId=2, type=null, result=null}, {articleId=2, articleTitle=ddsf, articleContent=<p>sfdsfsdfasdfa</p>, articleIssueTime=1688091123000, humanId=0, human={humanId=2, humanName=xiaojun, humanPassword=admin, humanEmail=xiaojun@email, humanNiceName=隔壁老王, humanDescribe=null}, typeId=3, type=null, result=null}], allPage=1}}
+请求设备信息	:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188
+
+=日志信息==== 2023年08月09日 19时08分24秒 ===
+日志类型		:INFO
+操作描述		:null
+操作用户		:admin
+URL			:/to/base/navigation
+消耗时间		:30 ms
+请求类型		:get
+IP地址		:0:0:0:0:0:0:0:1
+请求参数		:{path=base, page=navigation}
+请求返回的结果	:base/navigation
+请求设备信息	:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188
+
+=日志信息==== 2023年08月09日 19时08分24秒 ===
+日志类型		:INFO
+操作描述		:获取文章类别列表
+操作用户		:admin
+URL			:/type/typeList
+消耗时间		:8 ms
+请求类型		:post
+IP地址		:0:0:0:0:0:0:0:1
+请求参数		:null
+请求返回的结果	:{code=200, message=成功, data=[{typeId=2, typeName=我的日记}, {typeId=3, typeName=我的感悟}, {typeId=4, typeName=我的相册}]}
+请求设备信息	:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188
+
+=日志信息==== 2023年08月09日 19时08分26秒 ===
+日志类型		:INFO
+操作描述		:根据 id 获取文章数据
+操作用户		:admin
+URL			:/article/articleById/11
+消耗时间		:15 ms
+请求类型		:post
+IP地址		:0:0:0:0:0:0:0:1
+请求参数		:{articleId=11}
+请求返回的结果	:{code=200, message=成功, data={articleId=11, articleTitle=死亡日记, articleContent=<p>死亡亦是开始</p>, articleIssueTime=1691572429000, humanId=1, human={humanId=1, humanName=admin, humanPassword=123abc, humanEmail=xiaohong@email.com, humanNiceName=小怪, humanDescribe=null}, typeId=2, type={typeId=2, typeName=我的日记}, result=null}}
+请求设备信息	:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188
+
+=日志信息==== 2023年08月09日 19时08分26秒 ===
+日志类型		:INFO
+操作描述		:null
+操作用户		:admin
+URL			:/to/base/navigation
+消耗时间		:15 ms
+请求类型		:get
+IP地址		:0:0:0:0:0:0:0:1
+请求参数		:{path=base, page=navigation}
+请求返回的结果	:base/navigation
+请求设备信息	:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188
+
+=日志信息==== 2023年08月09日 19时08分26秒 ===
+日志类型		:INFO
+操作描述		:根据文章id查询文章评论
+操作用户		:admin
+URL			:/reply/split/11/1
+消耗时间		:15 ms
+请求类型		:post
+IP地址		:0:0:0:0:0:0:0:1
+请求参数		:{articleId=11, currentPage=1}
+请求返回的结果	:{code=200, message=成功, data={replies=[], allPage=0}}
+请求设备信息	:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188
+
+=日志信息==== 2023年08月09日 19时08分26秒 ===
+日志类型		:INFO
+操作描述		:获取文章类别列表
+操作用户		:admin
+URL			:/type/typeList
+消耗时间		:18 ms
+请求类型		:post
+IP地址		:0:0:0:0:0:0:0:1
+请求参数		:null
+请求返回的结果	:{code=200, message=成功, data=[{typeId=2, typeName=我的日记}, {typeId=3, typeName=我的感悟}, {typeId=4, typeName=我的相册}]}
+请求设备信息	:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188
+
+=日志信息==== 2023年08月09日 19时08分41秒 ===
+日志类型		:INFO
+操作描述		:null
+操作用户		:admin
+URL			:/to/base/navigation
+消耗时间		:9 ms
+请求类型		:get
+IP地址		:0:0:0:0:0:0:0:1
+请求参数		:{path=base, page=navigation}
+请求返回的结果	:base/navigation
+请求设备信息	:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188
+
+=日志信息==== 2023年08月09日 19时08分41秒 ===
+日志类型		:INFO
+操作描述		:根据文章的点击量查询排名前十的文章内容。在每天指定时间查询 redis 中的排行榜数据，然后将其写入本地文件，在之后的时间只读取本地文件数据，在本地文件数据存在的情况下
+操作用户		:admin
+URL			:/article/ranking
+消耗时间		:18 ms
+请求类型		:post
+IP地址		:0:0:0:0:0:0:0:1
+请求参数		:null
+请求返回的结果	:{code=200, message=成功, data=[{articleId=9, articleTitle=逍遥游, articleContent=<p>北冥有鱼，其名为鲲。鲲之大，不知其几千里也；化而为鸟，其名为鹏。鹏之背，不知其几千里也；怒而飞，其翼若垂天之云。是鸟也，海运则将徙于南冥。南冥者，天池也。《齐谐》者，志怪者也。<br></p>, articleIssueTime=1691049027000, humanId=1, human=null, typeId=2, type=null, result=null}, {articleId=4, articleTitle=是是记, articleContent=<p>事实是事实是事实是事实烧死是事实是黑色试试hi实施烧死是事实是事实是是是是是是是</p>, articleIssueTime=1690892581000, humanId=1, human=null, typeId=2, type=null, result=null}, {articleId=3, articleTitle=小石潭记, articleContent=<p>晋元中，武陵人捕鱼为业。黄河之水天上来。劝君更进一杯酒。</p>, articleIssueTime=1690891522000, humanId=1, human=null, typeId=2, type=null, result=null}, {articleId=2, articleTitle=ddsf, articleContent=<p>sfdsfsdfasdfa</p>, articleIssueTime=1688091123000, humanId=2, human=null, typeId=3, type=null, result=null}, {articleId=10, articleTitle=心经, articleContent=<p>观自在菩萨，行深般若波罗蜜多时，照见五蕴皆空，度一切苦厄。舍利子，色不异空，空不异色，色即是空，空即是色，受想行识，亦复如是。<br></p>, articleIssueTime=1691049588000, humanId=1, human=null, typeId=2, type=null, result=null}, {articleId=8, articleTitle=道德经, articleContent=<p>道可道也，非恒道也。名可名也，非恒名也。无名万物之始也，有名万物之母也。故：恒无欲也，以观其眇；恒有欲也，以观其徼。两者同出，异名同谓。玄之又玄，众妙之门。<br></p>, articleIssueTime=1691048972000, humanId=1, human=null, typeId=2, type=null, result=null}, {articleId=12, articleTitle=观沧海, articleContent=<p>东临碣石，以观沧海。水何澹澹，山岛竦峙。树木丛生，百草丰茂。秋风萧瑟，洪波涌起。日月之行，若出其中；星汉灿烂，若出其里。幸甚至哉，歌以咏志。<br></p>, articleIssueTime=1691569773000, humanId=1, human=null, typeId=2, type=null, result=null}, {articleId=11, articleTitle=死亡日记, articleContent=<p>死亡亦是开始</p>, articleIssueTime=1691572429000, humanId=1, human=null, typeId=2, type=null, result=null}]}
+请求设备信息	:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188
+
+=日志信息==== 2023年08月09日 19时08分41秒 ===
+日志类型		:INFO
+操作描述		:获取文章类别列表
+操作用户		:admin
+URL			:/type/typeList
+消耗时间		:68 ms
+请求类型		:post
+IP地址		:0:0:0:0:0:0:0:1
+请求参数		:null
+请求返回的结果	:{code=200, message=成功, data=[{typeId=2, typeName=我的日记}, {typeId=3, typeName=我的感悟}, {typeId=4, typeName=我的相册}]}
+请求设备信息	:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188
+

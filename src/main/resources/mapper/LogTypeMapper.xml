@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.logmanager.mapper.LogTypeMapper">
+    <select id="selectOneByType" resultType="com.logmanager.entity.LogType">
+        SELECT `type_id`,`type` FROM `log_type` WHERE `type`=#{logType};
+    </select>
+    <select id="selectOneById" resultType="com.logmanager.entity.LogType">
+        SELECT `type_id`,`type` FROM `log_type` WHERE `type_id`=#{type_id};
+    </select>
+    <select id="selectAll" resultType="com.logmanager.entity.LogType">
+        SELECT `type_id`,`type` FROM `log_type` ORDER BY `type_id` ASC;
+    </select>
+    <select id="countLogsType" resultType="com.logmanager.entity.LogTypeStatistic">
+        SELECT `type_id`, COUNT(*) AS `count` FROM `logs_subject` GROUP BY `type_id`;
+    </select>
+    <select id="countMethodType" resultType="com.logmanager.entity.MethodTypeStatistic">
+        SELECT `method_id`, COUNT(*) AS `count` FROM `logs_subject` GROUP BY `method_id`;
+    </select>
+</mapper>
