@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.logserver.mapper.UsersMapper">
+    <insert id="insertOne" parameterType="com.logserver.entity.Users" useGeneratedKeys="true" keyProperty="id">
+        INSERT INTO `users`(`guid`,`username`,`email`,`password`,`createTime`,`createUser`) VALUES
+        (#{guid},#{username},#{email},#{password},#{createTime},#{createUser})
+    </insert>
+    <select id="selectOneByEmail" parameterType="string" resultType="com.logserver.entity.Users">
+        SELECT `id`,`guid`,`username`,`email`,`password`,`createTime`,`createUser`
+        FROM `users`
+        WHERE 1=1 AND `email`=#{email}
+    </select>
+    <select id="selectOneByUsername" parameterType="string" resultType="com.logserver.entity.Users">
+        SELECT `id`,`guid`,`username`,`email`,`password`,`createTime`,`createUser`
+        FROM `users`
+        WHERE 1=1 AND `username`=#{username}
+    </select>
+</mapper>

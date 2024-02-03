@@ -1,0 +1,19 @@
+logsdk:
+  enable: true
+  rabbitmq:
+    enable: true
+    exchange: log.exchange
+    route-key: log
+    queue: log.queue
+
+    exchange-error: log.exchange.error
+    router-key-error: log.error
+    queue-error: log.queue.error
+
+spring:
+  rabbitmq:
+    host: 192.168.15.129
+    port: 5672
+    username: admin
+    password: 123abc
+    virtual-host: log_host

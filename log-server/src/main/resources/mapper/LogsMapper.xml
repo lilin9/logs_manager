@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.logserver.mapper.LogsMapper">
+    <insert id="InsertLogsInfo" parameterType="java.util.List">
+        INSERT INTO logs_info(`guid`,`description`,operator,startTime,executeTime,url,methodType,ip,parameters,result,device) VALUES
+        <foreach collection="list" item="info" index="index" separator=",">
+            (#{info.guid},#{info.description},#{info.operator},#{info.startTime},#{info.executeTime},#{info.url},#{info.methodType},#{info.ip},#{info.parameters},#{info.result},#{info.device})
+        </foreach>
+    </insert>
+    <insert id="InsertLogsError" parameterType="java.util.List">
+        INSERT INTO logs_error(`guid`,infoId,exceptionName,exceptionMsg) VALUES
+        <foreach collection="list" item="error" index="index" separator=",">
+            (#{error.guid},#{error.infoId},#{error.exceptionName},#{error.exceptionMsg})
+        </foreach>
+    </insert>
+</mapper>
